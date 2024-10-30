@@ -1,79 +1,56 @@
 # Development Methodologies
 
-## What is a Software Development Methodology?
+## What is a Development Methodology?
 
-To answer this, we will split the question into two parts, Software and Development Methodology.
+A Development Methodology is how you systematically approach solving and creating a solution to a problem.  Human nature is to jump in and start working without thinking and planning which can often lead to problems and errors.
 
-As you already know, all computer systems are made up of hardware and software.
+When developing Computer Systems there needs to be a lot of planning as real world systems are of a huge size, are complex and have massive technological importance in all areas of our lives. For example:
 
-The term hardware is easy to understand, because you can touch it. For example, the processor, RAM, network adaptor and graphic cards etc...
+<p style="text-align:center;"><span style="color: #6191F8"> Databases could contain millions of customers and be vital to a multi-million pound business.</p>
 
-==Software, however, is not so obvious………………==
+<p style="text-align:center;"><span style="color: #6191F8"> Website could have billions of users and need to do hundreds of thousand transactions a day.  </p>
 
-Software is all the programs, instructions and data that allow the hardware to do something useful and interesting. Some of the most used include; word, excel, PowerPoint & Google (other browsers are available!)
+<p style="text-align:center;"><span style="color: #6191F8"> A Website could have billions of users and need to do hundreds of thousand transactions a day. </p>
 
-!!! tip
+<p style="text-align:center;"><span style="color: #6191F8"> Software programs can easily have multi-millions lines of code that can be responsible for many thousands of operations, even affecting life or death situations.</p>
 
-	Software Development is defined as the process of designing, creating, testing, and maintaining computer programs and applications. There are many different  Software Development Methodologies that all follow a different path through the Development Process. 
+Due to the scale, cost, frequency of problems and long timescales involved in Software and Information System development there has to be a “methodical” approach.  
 
-## The Waterfall Method
+At this level of study you need to be able to describe and compare the following two:
+Iterative development process (waterfall method)
+Agile methodologies
 
-The development methodology you will be learning is known as a Waterfall model which consists of SIX different steps.
+!!! info
 
-A benefit of the Waterfall Methodology is that we can go back a step if there is a problem and fix it before then repeating the steps in order until we have the full working solution.
+	At this level of study you need to be able to describe and compare the following two:
 
-##  The Six Stages of Development
+	
+	<p style="text-align:center;"><span style="color: #6191F8"> Iterative Development Process (waterfall method)</p>
 
-### Analysis
+	<p style="text-align:center;"><span style="color: #6191F8">Agile Methodologies</p>
+	
 
-> What is the purpose of the program? 
+## Iterative Development Process (Waterfall Model) 
 
-> What features will it have? (This is known as functional requirements)
 
-> What are the inputs, process and outputs?
+The Waterfall model is a structured, linear approach to software development. In this methodology, the stages followed include analysis, design, implementation, testing, documentation, evaluation, and maintenance. Although the process is often referred to as iterative because stages can be revisited, one of its main challenges is that these stages are followed sequentially.
 
-> What data structures and data types will be used?
+As development progresses, new ideas and requirements will often emerge that were not foreseen during the initial planning stages. This leads to the need to revisit earlier phases of the project to address new issues and correct errors which slows the development process considerably. 
 
-### Design
+As a result, the Waterfall model is often criticized for being overly rigid, slow, and dependent on excessive documentation as each step strictly follows the last.
 
-> The more planning you do the quicker the creation of the final product will be
+##  Agile Methodologies
 
-> Break a problem into chunks 
+Agile methodologies generally follow the same development stages (Analysis, Design, Implementation, Testing, Documentation, Evaluation, and Maintenance) but approach them more flexibly. The focus is on quickly getting started while allowing movement between stages as needed. This iterative process enables collaboration between different developer teams, allowing the project’s requirements and solution to evolve step by step.
 
-> Use diagrams to create and algorithm
+The Agile methodology places a strong emphasis on teamwork, with regular interaction among developers and frequent engagement with clients or users to create prototypes. 
 
-> Pseudocode, Structure Diagrams and Flowcharts
+By showing working prototypes as the system develops, teams can gather real-time feedback, allowing for adjustments and improvements throughout the process. 
 
-### Implementation
+!!! info
+	
+	<p style="text-align:center;"><span style="color: #6191F8"> A key aspect of agile methodologies is their ability to respond to change, recognizing that requirements are often fluid and that software projects are inherently dynamic.)</p>
 
-> Create the solution to the problem
+Rapid Application Development (RAD) is one such example of an agile approach to software and information system creation. Its primary goal is to implement solutions quickly, minimizing upfront planning. RAD involves producing incremental versions or prototypes to refine requirements and address issues as they arise.
 
-> Use previously designed Algorithms to signpost the way
-
-### Testing
-
-> All work needs to be checked thoroughly for errors. 
-
-> Rigorous testing to systematically check every single operation/event.
-
-> Rigorously test a range of scenarios to make sure the program does what it is supposed to.
-
-### Documentation
-
-> Collate diagrams, algorithms and testing tables.
-
-> These documents together form the wider documentation (user guide & technical guide).
-
-> It is important that documentation is clear.
-
-> Documentation should also show what each person did and what has happened thus far. 
-
-### Evaluation
-
-> Fit for Purpose - does it do what it is supposed to do?
-
-> Efficient use of Coding Constructs  - correct use of repetition, arrays (instead of variables) and selection statements where possible to reduce the amount of code?
-
-> Robustness – can it cope with unexpected or incorrect input?
-
-> Readability - it is important to write code that can be read and understood by others. This should include internal commentary, meaningful identifiers, indentation and white space.
+While RAD can significantly reduce development time, it may lead to an overemphasis on the Graphical User Interface (GUI) rather than the core functionality of the software. Continuous iteration can also result in a disorganized process, increased errors, and long-term maintenance challenges. Therefore, RAD is best suited for smaller, dynamic projects like apps or websites, but is less ideal for large-scale or mission-critical systems.
