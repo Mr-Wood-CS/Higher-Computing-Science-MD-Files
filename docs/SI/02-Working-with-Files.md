@@ -14,24 +14,6 @@ The easiest way to start learning about saving and loading data is by using a te
 </br>
 When opening an external file, you need to specify how the file will be used in your program. </p>
 
-Below I have detailed how to do this.
-
-!!! example
-	```Python
-	x = 5
-	y = 2
-	```
-You will already have used similar in **Maths**. What is x + y? (the answer is 7)
-
-**In computing however, we usually give them a longer (more meaningful) name, such as:**
-
-!!! example
-	```Python
-	age = 15
-	name = "Bob"
-	email = "bob@gmail.com"
-	```
-	
 ## Python Variable Naming Rules
 
 - A variable name must start with a letter or the underscore character
