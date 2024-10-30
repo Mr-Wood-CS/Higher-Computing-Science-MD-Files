@@ -9,8 +9,8 @@ nav:
       - Software Implementation: 'SDD/04-Software-Implementation.md'
     - Unit 2 - Software Implementation:
       - SI/index.md
-      - Input and Output: 'SI/01-Input-and-Output.md'
-      - Variables and Data Types: 'SI/02-Variables-and-Data-Types.md'
+      - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
+      - Working with Files: 'SI/02-Working-with-Files.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:

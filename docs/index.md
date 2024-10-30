@@ -8,12 +8,12 @@
 <h2 style="text-align:center;">Welcome to SQA Higher Computer Science!</h2>
 
 
-This course will introduce you to the exciting world of technology, where you’ll learn how computers work, how to design software, and how to manage data. We’ll cover three main units: **Software Design and Development**, **Computer Systems**, and **Database Design and Development**.
+The SQA National Higher Computer Science course is an exciting program that will help you develop essential skills and knowledge in the world of technology. The course is divided into three main units: Software Design and Development, Computer Systems, and Database Design and Development.
 
-In **Software Design and Development**, you’ll learn how to think like a programmer, creating and testing programs to solve problems. We’ll explore coding basics, developing your skills to write and troubleshoot code effectively.
+In Software Design and Development, you'll learn how to design, write, and test programs, which will help you solve real-world problems through coding. This is where you start to think like a programmer and use logic to create solutions.
 
-The **Computer Systems** unit dives into what’s inside a computer and how it works. You’ll learn about hardware, software, and how they work together, along with a look into how data is stored and processed.
+The Computer Systems unit will help you understand how computers work, from the hardware components to the software they run. You’ll explore the physical parts of a computer, such as the CPU and memory, as well as the different ways information is stored and processed.
 
-Finally, in **Database Design and Development**, you’ll learn how information is organized and stored. You’ll create and manage databases, making it easy to store and access data effectively.
+Finally, in Database Design and Development, you’ll learn to design and manage databases, which are used everywhere to organize and retrieve information. This unit will give you the skills to handle data efficiently and understand how information is managed in real-world applications.
 
-By the end, you’ll have a solid foundation in computer science, ready to explore more advanced topics or pursue a career in tech.
+Each unit will build your skills, preparing you for further study or careers in technology, software development, cybersecurity, and many other fields.
