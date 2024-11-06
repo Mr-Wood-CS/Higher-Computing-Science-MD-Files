@@ -1,7 +1,7 @@
 # Working with Files
 
 <div class="grid cards" markdown>
-- :FontAwesomeIcon icon="fa-brands fa-python": __HTML__ for content and structure
+- :simple-python: __HTML__ for content and structure
 - :fontawesome-brands-js: __JavaScript__ for interactivity
 - :fontawesome-brands-css3: __CSS__ for text running out of boxes
 - :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
