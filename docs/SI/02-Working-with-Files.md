@@ -1,9 +1,10 @@
 # Working with Files
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-python: __Files__ [for this lesson]
+- :fontawesome-brands-python:
 </div>
 
+[__Files__for this lesson](https://github.com/Mr-Wood-CS/National-5-Computing-Science-Code-Files/tree/b37eed7eaec3ed4b1d16cf3238b6ddd619c9ff1e/05-File-Handling-(csv%20files))
 
 ## Explanation
 
