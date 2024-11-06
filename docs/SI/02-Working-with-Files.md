@@ -1,7 +1,7 @@
 # Working with Files
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-github: __HTML__ for content and structure
+- :fontawesome-brands-html5: __HTML__ for content and structure
 </div>
 
 
