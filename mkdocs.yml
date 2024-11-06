@@ -29,6 +29,8 @@ markdown_extensions:
   - pymdownx.tilde
   - attr_list
   - md_in_html
+  - attr_list
+  - md_in_html
 theme:
   name: material
   font:
