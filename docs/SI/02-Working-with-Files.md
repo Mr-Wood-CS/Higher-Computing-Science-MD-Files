@@ -5,7 +5,7 @@
 </div>
 
 [Glazing-Company](./Static/5.2-Glazing-Company.py){:download = "Glazing-Company.py"}
-
+[Glazing-Company](./Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
 ## Explanation
 
 <p style="text-align:center;"> In this lesson, we will learn about file handling, which allows our programs to manage large amounts of data efficiently, similar to how real-world systems work.
