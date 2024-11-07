@@ -1,5 +1,13 @@
 # Sub-program Procedures
 
+<div class="grid cards" markdown>
+- :fontawesome-brands-python: [Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
+</div>
+
+<div class="grid cards" markdown>
+- :fontawesome-brands-python: [Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
+</div>
+
 ## Local & Global Variables
 
 During National 5 you worked with variables throughout the entire scope of a program as well as accessing, using and changing their data values anywhere in the code, this is known as a Global Variable.
