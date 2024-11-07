@@ -10,8 +10,7 @@ nav:
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
-      - Working with Files: 'SI/02-Working-with-Files.md'
-      - Working with Records: 'SI/03-Working-with-Records.md'
+      - Scope of Variables and Parameter Passing: 'SI/02-Scope-of-Variables-and-Parameter-Passing.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
