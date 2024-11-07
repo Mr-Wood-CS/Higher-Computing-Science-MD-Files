@@ -1,13 +1,15 @@
 # Working with Files
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-python: [ Files for this lesson](https://github.com/Mr-Wood-CS/National-5-Computing-Science-Code-Files/tree/b37eed7eaec3ed4b1d16cf3238b6ddd619c9ff1e/05-File-Handling-(csv%20files))
-</div>
-
-[Glazing-Company](./Static/5.2-Glazing-Company.py){:download = "Glazing-Company.py"}
-
+	
+- :fontawesome-brands-python: [ __Files for this lesson__]
 
 [Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
+
+</div>
+
+
+
 ## Explanation
 
 <p style="text-align:center;"> In this lesson, we will learn about file handling, which allows our programs to manage large amounts of data efficiently, similar to how real-world systems work.
