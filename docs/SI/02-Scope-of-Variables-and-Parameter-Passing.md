@@ -3,6 +3,29 @@
 ## Local & Global Variables
 
 During National 5 you worked with variables throughout the entire scope of a program as well as accessing, using and changing their data values anywhere in the code, this is known as a Global Variable.
+!!! example
+
+	```Python
+		totalAppDownloads = 2305651
+	
+		def downloadsForMonth():
+	
+		    print "Current download amount: ", totalAppDownloads,"downloads"
+		
+		    monthDownloads = int(raw_input("How many downloads did the App have this month?  "))
+		
+		    return monthDownloads
+	
+		def newTotalDownloads(monthDownloads):
+		
+		    totalAppDownloads = totalAppDownloads + monthDownloads
+		
+		    return
+	```
+
+
+
+
 
 > A global variable is created in the main part of the program and can be passed/accessed by other parts of the program.
 
