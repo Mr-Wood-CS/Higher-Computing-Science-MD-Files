@@ -3,6 +3,15 @@
 ## Local & Global Variables
 
 During National 5 you worked with variables throughout the entire scope of a program as well as accessing, using and changing their data values anywhere in the code, this is known as a Global Variable.
+
+A __global__ variable is created in the main part of the program and can be passed/accessed by other parts of the program.
+
+A __local__ variable however is only used within a single block of code and cannot be seen or accessed from other parts of the program.
+
+The scope of a variable defines which part of the program can see the variable and change its value. 
+
+__For example the scope of a local variable is the subroutine it is in.__
+
 !!! example
 
 	```Python
@@ -22,16 +31,6 @@ During National 5 you worked with variables throughout the entire scope of a pro
 		
 		    return
 	```
-
-
-
-
-
-> A global variable is created in the main part of the program and can be passed/accessed by other parts of the program.
-</br>
-> A local variable however is only used within a single block of code and cannot be seen or accessed from other parts of the program.
-</br>
-> The scope of a variable defines which part of the program can see the variable and change its value. For example the scope of a local variable is the subroutine it is in. 
 
 ## Parameter Passing
 
