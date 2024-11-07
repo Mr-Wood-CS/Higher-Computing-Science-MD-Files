@@ -2,9 +2,7 @@
 
 <div class="grid cards" markdown>
 	
-- :fontawesome-brands-python: [ __Files for this lesson__]
-
-[Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
+- :fontawesome-brands-python: [Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
 
 </div>
 
