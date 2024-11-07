@@ -5,6 +5,8 @@
 </div>
 
 [Glazing-Company](./Static/5.2-Glazing-Company.py){:download = "Glazing-Company.py"}
+
+
 [Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
 ## Explanation
 
