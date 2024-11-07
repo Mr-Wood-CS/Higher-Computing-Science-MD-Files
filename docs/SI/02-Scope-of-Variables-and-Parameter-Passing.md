@@ -1,28 +1,66 @@
 # Sub-program Procedures
 
-## Modularity
+## Local & Global Variables
 
-Modularity means that when a program is written it is split up into smaller chunks called sub-programs. Imagine a program with millions of lines of. This would be split up into different programming teams to complete. 
+During National 5 you worked with variables throughout the entire scope of a program as well as accessing, using and changing their data values anywhere in the code, this is known as a Global Variable.
 
-Each of the sub-programs does a specific job. For example one sub-program may be to get user information. Each of the subprograms can be used in any order and can be reused multiple times. 
+A __global__ variable is created in the main part of the program and can be passed/accessed by other parts of the program.
+
+A __local__ variable however is only used within a single block of code and cannot be seen or accessed from other parts of the program.
+
+The scope of a variable defines which part of the program can see the variable and change its value. 
+
+__For example the scope of a local variable is the subroutine it is in.__
 
 !!! example
+
 	```Python
+		totalAppDownloads = 2305651
 	
+		def downloadsForMonth():
+	
+		    print "Current download amount: ", totalAppDownloads,"downloads"
+		
+		    monthDownloads = int(raw_input("How many downloads did the App have this month?  "))
+		
+		    return monthDownloads
+	
+		def newTotalDownloads(monthDownloads):
+		
+		    totalAppDownloads = totalAppDownloads + monthDownloads
+		
+		    return
 	```
 
-## Procedures in Python
+## Parameter Passing
 
-### What is a procedure? 
-We'll use an analogy here. Let's imagine that you're a dishwasher. Your process of washing a dish could be:
+A parameter is a value that is being passed in or out of a subprogram.  In the example below you can see two parameters being passed into the calculate sub-program. 
+In all the software development we do we are going to follow the “good practice” of using Local Variables within our sub-programs. This means we need to implement Parameter Passing to get the required data in and out of a module and so that it can used elsewhere in a program.
+In the example below you can see two parameters being passed into the calculate sub-program on line 6
+!!! example
+	```Python
+	def input_lunch_info():
+		lunch_cost = float(input("Enter the cost of lunch - "))
+		years_member = int(input("Enter the years of membership - "))
+		return lunch_cost, years_member
+	
+	def calculate_final_cost (lunch_cost, years_member):
+		if lunch_cost >= 55 or years_member > 3:
+		print ("£{:.2f}".format(lunch_cost - 10)) 
+		else:
+		print ("£{:.2f}".format(lunch_cost)) 
+	```
+## Formal Parameters
 
-- Dip the dish into the water
-- Cover every inch of the dish with soap 
-- Rinse and dry the dish
+Formal parameters are placeholders within a subprogram for the values received from main program’s actual parameters. 
+In the example below there is a ‘validate’ sub program. This has min, max and number as its parameters. The lines of code with the arrow pointing to it show different values are passed into the ‘validate’ sub program when it runs. 
+Within the validate sub-program the values that are passed in are known as min, max and number. This is why they are called placeholders for the values that are received from the main program.
 
-So, every time you need to wash a dish, you do just that. Dip, soap, dry. Dip, soap, dry. Dip, soap, dry. Even when you go home, you dip, soap, dry. Dip, soap, dry. It's the same sequence, repeated over and over again. 
+## Actual Parameters
 
-A procedure works the same way. People replace the process of dipping, soaping, and drying with the command "wash the dishes". When you call a procedure, it simply does the jobs that the procedure is supposed to do. 
+This is the actual data sent to a subprogram. It's found in the line of code that you call the function. In the example below you can see checkAnswer(userAnswer). Within that, userAnswer would be the actual parameter.
+
+
 
 By replacing a stack of instructions with one single statement, it makes code easier to read and debug. A procedure does not return a value.
 
