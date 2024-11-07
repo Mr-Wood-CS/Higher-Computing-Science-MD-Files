@@ -16,18 +16,18 @@ A parameter is a value that is being passed in or out of a subprogram.  In the e
 In all the software development we do we are going to follow the “good practice” of using Local Variables within our sub-programs. This means we need to implement Parameter Passing to get the required data in and out of a module and so that it can used elsewhere in a program.
 In the example below you can see two parameters being passed into the calculate sub-program on line 6
 !!! example
-```Python
-def input_lunch_info():
-	lunch_cost = float(input("Enter the cost of lunch - "))
-	years_member = int(input("Enter the years of membership - "))
-	return lunch_cost, years_member
-
-def calculate_final_cost (lunch_cost, years_member):
-	if lunch_cost >= 55 or years_member > 3:
-	print ("£{:.2f}".format(lunch_cost - 10)) 
-	else:
-	print ("£{:.2f}".format(lunch_cost)) 
-```
+	```Python
+	def input_lunch_info():
+		lunch_cost = float(input("Enter the cost of lunch - "))
+		years_member = int(input("Enter the years of membership - "))
+		return lunch_cost, years_member
+	
+	def calculate_final_cost (lunch_cost, years_member):
+		if lunch_cost >= 55 or years_member > 3:
+		print ("£{:.2f}".format(lunch_cost - 10)) 
+		else:
+		print ("£{:.2f}".format(lunch_cost)) 
+	```
 ## Formal Parameters
 
 Formal parameters are placeholders within a subprogram for the values received from main program’s actual parameters. 
