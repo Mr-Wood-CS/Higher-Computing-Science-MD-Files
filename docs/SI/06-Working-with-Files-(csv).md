@@ -36,7 +36,7 @@ It may be easier to think of the data as being separated into columns and rows t
 | 1   | Laura | 16  | r1         |
 | 2   | Marie | 16  | r1         |
 
-##  Working with .csv Files
+##  Options (modes)
 
 When opening a .csv file to use, you must first specify how that file will be used.
 
