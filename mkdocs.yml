@@ -77,4 +77,3 @@ theme:
     - navigation.top
     - navigation.indexes 
     - navigation.expand
-    - content.tabs.link
