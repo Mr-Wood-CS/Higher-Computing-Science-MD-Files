@@ -30,6 +30,23 @@ kind of information to expect in each field.
 
 ## Creating a Single Record Structure
 
+=== "Python"
+
+    ``` python
+	from dataclasses import dataclass
+	
+	@dataclass
+    }
+    ```
+
+=== "Explanation"
+
+	__Line 1 - from dataclasses import Dataclass__
+	This line is like getting a special helper from a toolbox. It brings in something called dataclass, which makes it easier to create a class that stores information.
+	
+	__Line 3 - @dataclass__
+	This is a special tag that tells Python, "I want to make the next class a dataclass." This means Python will automatically help us with things like creating the class and keeping track of data inside it.
+
 !!! example
 	```Python
 	x = 5
