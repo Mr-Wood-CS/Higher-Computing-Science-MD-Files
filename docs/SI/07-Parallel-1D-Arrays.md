@@ -55,4 +55,13 @@ This example is based on the Schools-Reg.csv file from earlier
   ![img 4](../Images/Parallel-1D-Arrays-4.png){ width="800" }
 </figure>
 
- 
+We would implement this program with three parallel arrays - __one for name, age and reg group__.
+
+This program reads the Schools.csv file, and produces an array of lines - __each line of the file__. 
+
+We then split each line into parts __(comma separated values)__, e.g.:
+
+<figure markdown="span">
+  ![img 5](../Images/Parallel-1D-Arrays-5.png){ width="800" }
+</figure>
+
