@@ -11,6 +11,7 @@ nav:
       - SI/index.md
       - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
       - Scope of Variables and Parameter Passing: 'SI/02-Scope-of-Variables-and-Parameter-Passing.md'
+      - Working with .csv Files: 'SI/06-Working-with-Files-(csv).md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
