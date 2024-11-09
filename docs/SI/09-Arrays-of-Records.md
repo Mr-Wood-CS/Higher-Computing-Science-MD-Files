@@ -270,6 +270,45 @@ These boxes are part of a record, and we can easily look inside each one to see 
 	__Line 19 - pupilRecord[i] = SchoolReg(data[0], int(data[1]), data[2])__
 	This line takes the pieces of data from the file and creates a SchoolReg object for each student. It fills in the student's name (data[0]), age (data[1]), and registration number (data[2]). The int() function converts the age from a string to a number.
 
+### Part Three
 
+=== "Python"
 
+    ``` python linenums="1"	
+		from dataclasses import dataclass
+		import CSV
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		file = open("School-Reg.csv", "r")
+		
+		for i in range(len(pupilRecord)):
+		    data = file.readline()
+		    data = data.strip("\n")
+		    data = data.split(",")
+		    pupilRecord[i] = SchoolReg(data[0], int(data[1]), data[2])
+		
+		for x in range(len(pupilRecord)):
+		    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
+		    
+		file.close()
+    ```
+
+=== "Explanation"
+
+	__Line 21 - for x in range(len(pupilRecord)):__
+	This is another loop. This time, it goes through each student's record in the list and prints out their information.
+ 
+	__Line 22 - print("Name: ", pupilRecord[x].Name, "Age: ", pupilRecord[x].Age, "Reg: ", pupilRecord[x].Reg)__
+	This line prints out the student's name, age, and registration number. 
+	
+	__Line 23 - file.close()__
+	This line closes the file after we are finished reading from it.
 
