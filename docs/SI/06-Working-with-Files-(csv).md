@@ -28,23 +28,46 @@ A .csv file would store the above data as:
 	Laura, 17, r1
 	Marie, 16, r1
 ```
+It may be easier to think of the data as being separated into columns and rows that use an index to identify them:
 
-Once we have read each line from the file, we split the line into its constituent parts.
+| Name  | Age | Reg Number |
+| :---: | :--:| :----------:
+| Peter | 17  | r1         |
+| Laura | 16  | r1         |
+| Marie | 16  | r1         |
 
-We use the split() function to separate each line, passing as a parameter the character we want to split with (usually a comma). 
 
-Based on the first row of the table above, the following code would print “1027”.
-</br>
-</br>
+When opening a .csv file to use, you must first specify how that file will be used.
 
-!!! example
+The options are:
+
+`Write`
+
+:   "w" (write Mode) creates a new file and writes to that file. If the file already exists, a new file will be created, overwriting the existing file.
+
+: !!! example
 
 	```Python
-		# Split the line based on commas, and store in an array
-		values = firstline.split(",")
-		print(values[2]) 
+		# This must be at the top of your program to allow Python to use the csv libary of commands.
+		import csv
+		
+		# Create a new file called "School-Reg.csv", overwriting any previous files of the same name.
+		file = open("School-Reg.csv", "w")
+		
+		# Add 3 new records to the file
+		newRecord1 = ("Peter,17,r1 \n")
+		newRecord2 = ("Laura,17,r1 \n")
+		newRecord3 = ("Marie,16,r1 \n")
 	```
- 
+
+`Cras arcu libero`
+
+:   Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin
+    ut eros sed sapien ullamcorper consequat. Nunc ligula ante.
+
+    Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
+    Nam vulputate tincidunt fringilla.
+    Nullam dignissim ultrices urna non auctor.
 ## Complete example
 This example uses the table above. It reads in the data, and finds the names and towns of the schools. If you wanted to print this data (or otherwise use it), you could do so using the parts[] array or name/town variables.
 
