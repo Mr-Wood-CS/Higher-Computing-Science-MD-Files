@@ -200,7 +200,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		``` text
 			Name: Peter Age: 17 Reg: r1
 	  	```
-### Array of Records and Files in Python
+### Array of Records (with Files)
 
 ### Part One
 
@@ -212,9 +212,9 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		@dataclass
 		
 		class SchoolReg:
-		Name : str = ""
-		Age : int = 0
-		Reg : str = ""
+			Name : str = ""
+			Age : int = 0
+			Reg : str = ""
 		
 		pupilRecord = [SchoolReg() for x in range (0,3)]
 		
