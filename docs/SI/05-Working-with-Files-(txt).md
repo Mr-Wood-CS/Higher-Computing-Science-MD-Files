@@ -56,7 +56,7 @@ The easiest way to start learning about saving and loading data is by using a te
 			file.close()
 		```
 	!!! tip
-	Note: you can also use file.readline() to read a file. Readline reads a single line of characters from the current position of the file and returns the data as a string. Readline however is not required at __Higher__
+		Note: you can also use file.readline() to read a file. Readline reads a single line of characters from the current position of the file and returns the data as a string. Readline however is not required at __Higher__
 
 #### `Append Mode`
 
