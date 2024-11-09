@@ -8,22 +8,18 @@ You already know that an array is a list of related values, called elements, tha
 
 This example below now adds a second array that records the date on which the temperature was taken.
 
+
 We can look up the temperature on, say, the 8th of June, by looking for that date, and reading the corresponding temperature (14°). 
-
-
 
 __These are parallel arrays, because we can look up corresponding values, like a table.__
 
 The following example is an array of temperatures in the month of June.
-</br>
-</br>
+
 Remember, an array is like a list of related variables that all share the same data type. For example, <span style="color: #6191F8"> an array could store a list of numbers or a list of names, but not both</span>.
-</br>
-</br>
+
 In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way (1).
 The easiest way to start learning about saving and loading data is by using a text file. 
-</br>
-</br>
+
 When opening an external file, you need to specify how the file will be used in your program. </p>
 
 Below I have detailed how to do this.
