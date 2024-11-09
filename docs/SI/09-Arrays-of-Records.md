@@ -14,7 +14,7 @@ For example, if we have three students, we can store their name, age, and regist
 
 These boxes are part of a record, and we can easily look inside each one to see or change the details. 
 
-## Working with Arrays of Records in Python (basic method)
+## Array of Records in Python (basic method)
 
 ### Part One
 
