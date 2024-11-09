@@ -21,21 +21,29 @@ These boxes are part of a record, and we can easily look inside each one to see 
 === "Python"
 
     ``` python linenums="1"
-	from dataclasses import dataclass
-	
-	@dataclass
+		from dataclasses import dataclass
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = [SchoolReg() for x in range (0,3)]
     ```
 
 === "Explanation"
 
 	!!! info
  
-		Lines 1 - 8 are covered in records.
+		Lines 1 - 8 are covered in __Working with Records__.
  
 	__Line 10 - pupilRecord = [SchoolReg() for x in range(0,3)]__
 	This line creates a list called pupilRecord. A list is like a box where we can store many things. In this case, we are creating two empty student records because the range (0,3) means it will create three spots, one for pupilRecord[0], one for pupilRecord[1] and one for pupilRecord[2].
 	
  	__In short, this line says:__
+  
 	"Make 3 empty student records using the SchoolReg class."
 
 ### Part Two
@@ -51,21 +59,24 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    Name : str = ""
 		    Age : int = 0
 		    Reg : str = ""
+		
+		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		pupilRecord[0].Name = "Peter"
+		pupilRecord[0].Age = 17
+		pupilRecord[0].Reg = "r1"
     ```
 
 === "Explanation"
 
-	__Line 5 - class SchoolReg__
-	Here, we are creating a class called SchoolReg. A class is like a blueprint or recipe. In this case, it helps us create something to store information about a school registration, like a student's name, age, and registration number.
+	__Line 12 - pupilRecord[0].Name = "Peter"__
+	Here, we set the Name of the first student (pupilRecord[0]) to "Peter". Before, it was empty, but now it holds the name "Peter."
  
-	__Line 6 - Name: str = ""__
-	Inside the class, we create a variable called Name. This will hold the student's name, and it's a string, which means it's a word or group of letters (like "Peter"). The empty quotes " " mean that we are starting with no name yet.
+	__Line 13 - pupilRecord[0].Age = 17__
+	Next, we set the Age of the first student (pupilRecord[0]) to 17. Before it was 0, and now it’s set to 17 years old.
  
-	__Line 7 - Age: int = 0__
-	This is another variable called Age. It will hold the student's age, and it's an integer (which means a whole number like 17). Right now, we start it at 0.
- 
-	__Line 8 - Reg: str = ""__
-	This variable is called Reg, which stands for "registration number." It’s also a string (a group of letters or numbers). At first, it's an empty string "", but we will fill it in later.
+	__Line 14 - pupilRecord[0].Reg = "r1"__
+	Here, we set the registration number (Reg) for the first student to "r1". Now Peter has the registration number "r1".
 
 ### Part Three
 
@@ -81,27 +92,32 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    Age : int = 0
 		    Reg : str = ""
 		
-		pupilRecord = SchoolReg()
-		pupilRecord.Name = "Peter"
-		pupilRecord.Age = 17
-		pupilRecord.Reg = "r1"
+		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		pupilRecord[0].Name = "Peter"
+		pupilRecord[0].Age = 17
+		pupilRecord[0].Reg = "r1"
+		
+		print (pupilRecord[0].Name) 
+		print (pupilRecord[0].Age) 
+		print (pupilRecord[0].Reg) 
     ```
 
 === "Explanation"
 
-	__Line 10 -  pupilRecord = SchoolReg()__
-	Now we create an object called pupilRecord from the SchoolReg class. Think of the class as a cookie cutter, and this object is a cookie made from it. This object will store a student's name, age, and registration number.
+	__Line 16 - print(pupilRecord[0].Name)__
+	This line tells the computer to print the name of the first student in the list, which is Peter.
  
-	__Line 11 - pupilRecord.Name = "Peter"__
-	Here, we set the Name of the pupilRecord object to "Peter". Before it was empty (""), but now it's filled with the name "Peter".
-	
- 	__Line 12 - pupilRecord.Age = 17__
-	Next, we set the Age for pupilRecord to 17. Before, it was 0, but now we know Peter is 17 years old.
-	
- 	__Line 13 - pupilRecord.Reg = "r1"_
-	Here, we set the registration number (Reg) to "r1". Now, the student Peter has a registration number "r1".
+	__Line 17 - print(pupilRecord[0].Age)__
+	This prints the age of the first student in the list, which is 17. 
+ 
+	__Line 18 - print(pupilRecord[0].Reg)__
+	Finally, this prints the registration number of the first student, which is "r1".
 
-### Part Four
+
+## Array of Records in Python (Efficient  Method)
+
+### Part One
 
 === "Python"
 
