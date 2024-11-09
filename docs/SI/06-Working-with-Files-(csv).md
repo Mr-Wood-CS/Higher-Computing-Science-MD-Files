@@ -36,12 +36,13 @@ It may be easier to think of the data as being separated into columns and rows t
 | Laura | 16  | r1         |
 | Marie | 16  | r1         |
 
+##  Working with .csv Files
 
 When opening a .csv file to use, you must first specify how that file will be used.
 
 The options are:
 
-## `Write Mode`
+### `Write Mode`
 
 :   __"w" (write Mode)__ creates a new file and writes to that file. If the file already exists, a new file will be created, overwriting the existing file.
 
