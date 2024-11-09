@@ -35,15 +35,17 @@ __We just declare two arrays.__
 
 !!! example
 	
-		```Python
-          # Two *parallel* arrays of pupil names and marks
-          pupil_name = ["Peter", "Laura", "Marie"]
-          pupil_mark = [20, 21, 23]
-          
-          # If we want to find the name and mark of the third pupil in the list, we would say:
-          print(pupil_name[2])
-          print(pupil_mark[2])
-		```
+	```Python
+ 
+	          # Two *parallel* arrays of pupil names and marks
+	          pupil_name = ["Peter", "Laura", "Marie"]
+	          pupil_mark = [20, 21, 23]
+	          
+	          # If we want to find the name and mark of the third pupil in the list, we would say:
+	          print(pupil_name[2])
+	          print(pupil_mark[2])
+	  
+	```
 
 ## Working with Files
 
