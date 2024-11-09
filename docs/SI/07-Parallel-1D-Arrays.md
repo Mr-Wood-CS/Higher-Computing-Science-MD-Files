@@ -7,13 +7,16 @@ You already know that an array is a list of related values, called elements, tha
 | Temperature  | 12 | 20 | 21|
 
 This example below now adds a second array that records the date on which the temperature was taken.
+
 We can look up the temperature on, say, the 8th of June, by looking for that date, and reading the corresponding temperature (14°). 
+
+![Image title](../Images/Parallel-1D-Arrays-1.png){ width="300" }
 
 __These are parallel arrays, because we can look up corresponding values, like a table.__
 
-| Dates        | 5/6 | 6/6 | 7/6 |
 
-| Temperature  | 12  | 20  | 21  |
+
+
 
 The following example is an array of temperatures in the month of June.
 </br>
