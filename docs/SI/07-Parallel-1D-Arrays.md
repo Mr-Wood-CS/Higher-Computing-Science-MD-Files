@@ -4,7 +4,7 @@
 
 You already know that an array is a list of related values, called elements, that can be referred to by number, __e.g. temperature[0], temperature[5]__ etc. 
 
-
+| Temperature  | 12 | 20 | 21|
 
 The following example is an array of temperatures in the month of June.
 </br>
