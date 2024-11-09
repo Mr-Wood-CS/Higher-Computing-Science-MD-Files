@@ -11,10 +11,9 @@ You already know that an array is a list of related values, called elements, tha
 
 This example below now adds a second array that records the date on which the temperature was taken.
 
-We can look up the temperature on, say, the 8th of June, by looking for that date, and reading the corresponding temperature (14°). 
+We can look up the temperature on the 8th of June, by looking for that date, and reading the corresponding temperature __(14°)__. 
 
-These are parallel arrays, because we can look up corresponding values, like a table.
-
+__These are parallel arrays, because we can look up corresponding values, like a table.__
 
 <figure markdown="span">
   ![img 2](../Images/Parallel-1D-Arrays-2.png){ width="800" }
@@ -22,3 +21,14 @@ These are parallel arrays, because we can look up corresponding values, like a t
 
 <!---{ width="300" }-->
 
+In this example, pupil marks are stored in one array, and pupil names are stored in another. 
+
+__We can see that Jack scored 23, and Lucy scored 24, by looking at the two arrays side-by-side, as if they were a table.__
+
+<figure markdown="span">
+  ![img 3](../Images/Parallel-1D-Arrays-3.png){ width="800" }
+</figure>
+
+There is no special syntax or different way to write these.
+
+__We just declare two arrays.__
