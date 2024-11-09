@@ -46,7 +46,6 @@ The options are:
 :   "w" (write Mode) creates a new file and writes to that file. If the file already exists, a new file will be created, overwriting the existing file.
 
 : !!! example
-
 	```Python
 		# This must be at the top of your program to allow Python to use the csv libary of commands.
 		import csv
