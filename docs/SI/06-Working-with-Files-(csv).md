@@ -14,8 +14,6 @@ CSV stands for Comma Separated Values and is a format usually associated with im
 It allows greater control over the data than a simple text file, as each row is split up into identifiable columns. 
 
 Below is an example of how the data is stored:
-
-<p style="text-align:center;"> 
 	
 | Name  | Age | Reg Number |
 | :---: | :--:| :----------:
