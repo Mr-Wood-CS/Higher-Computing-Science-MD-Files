@@ -1,5 +1,9 @@
 # Parrllel 1D Arrays
 
+## What you need to Know
+
+__You must be able to describe, exemplify and implement parallel 1D arrays.__
+
 ## Explanation
 
 You already know that an array is a list of related values, called elements, that can be referred to by number, e.g. temperature[0], temperature[5] etc. 
