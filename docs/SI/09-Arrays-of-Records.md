@@ -122,6 +122,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 === "Python"
 
     ``` python linenums="1"
+    
 		from dataclasses import dataclass
 		
 		@dataclass
@@ -132,6 +133,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    Reg : str = ""
 		
 		pupilRecord = [SchoolReg() for x in range (0,3)]
+  
     ```
 
 === "Explanation"
