@@ -185,7 +185,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		
 		for x in range(len(pupilRecord)):
 		    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
-    ```
+    	```
 
 === "Explanation"
 
