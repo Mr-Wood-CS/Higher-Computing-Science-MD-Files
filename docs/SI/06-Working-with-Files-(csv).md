@@ -17,11 +17,11 @@ Below is an example of how the data is stored:
 
 <p style="text-align:center;"> 
 	
-	| Name  | Age | Reg Number |
-	| :---: | :--:| :----------:
-	| Peter | 17  | r1         |
-	| Laura | 16  | r1         |
-	| Marie | 16  | r1         |
+| Name  | Age | Reg Number |
+| :---: | :--:| :----------:
+| Peter | 17  | r1         |
+| Laura | 16  | r1         |
+| Marie | 16  | r1         |
 
 </p>	
 
