@@ -30,13 +30,14 @@ kind of information to expect in each field.
 
 ## Creating a Single Record Structure
 
+### Part One
+
 === "Python"
 
     ``` python
 	from dataclasses import dataclass
 	
 	@dataclass
-    }
     ```
 
 === "Explanation"
@@ -47,3 +48,31 @@ kind of information to expect in each field.
 	__Line 3 - @dataclass__
 	This is a special tag that tells Python, "I want to make the next class a dataclass." This means Python will automatically help us with things like creating the class and keeping track of data inside it.
 
+### Part Two
+
+=== "Python"
+
+    ``` python
+		from dataclasses import dataclass
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+    ```
+
+=== "Explanation"
+
+	__Line 5 - class SchoolReg__
+	Here, we are creating a class called SchoolReg. A class is like a blueprint or recipe. In this case, it helps us create something to store information about a school registration, like a student's name, age, and registration number.
+ 
+		__Line 6 - Name: str = ""__
+	Inside the class, we create a variable called Name. This will hold the student's name, and it's a string, which means it's a word or group of letters (like "Peter"). The empty quotes " " mean that we are starting with no name yet.
+ 
+		__Line 7 - Age: int = 0__
+	This is another variable called Age. It will hold the student's age, and it's an integer (which means a whole number like 17). Right now, we start it at 0.
+ 
+		__Line 8 - Reg: str = ""__
+	This variable is called Reg, which stands for "registration number." It’s also a string (a group of letters or numbers). At first, it's an empty string "", but we will fill it in later.
