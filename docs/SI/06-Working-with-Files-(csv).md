@@ -9,41 +9,75 @@ Golf-Championship
 
 ## Explanation
 
-<p style="text-align:center;"> In this lesson, we will learn about file handling, which allows our programs to manage large amounts of data efficiently, similar to how real-world systems work.
-</br>
-</br>
-While it’s useful to create lists, make changes, and add new data, if your program resets every time it runs and your changes are lost, it’s not very practical. That’s why it’s sometimes necessary to save data outside the program, so it can be stored and any changes you make are saved.
-</br>
-</br>
-In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way (1).
-The easiest way to start learning about saving and loading data is by using a text file. 
-</br>
-</br>
-When opening an external file, you need to specify how the file will be used in your program. </p>
+CSV stands for Comma Separated Values and is a format usually associated with importing and exporting from spreadsheets and databases.
 
-## Python Variable Naming Rules
+It allows greater control over the data than a simple text file, as each row is split up into identifiable columns. 
 
-- A variable name must start with a letter or the underscore character
-- A variable name cannot start with a number
-- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-- Variable names are case-sensitive (age, Age and AGE are three different variables)
-- A variable name cannot be any of the **Python keywords**.
+Below is an example of how the data is stored:
 
-and although this one is not a rule....
+!!! example
 
-- It is important to use **meaningful** or **sensible** variable names. 
+	| Name  | Age | Reg Number |
+	| :---: | :--:| :----------:
+	| Peter | 17  | r1         |
+	| Laura | 16  | r1         |
+	| Marie | 16  | r1         |
+	
+A .csv file would store the above data as:
+
+!!! example
+
+	```txt
+		Peter, 17, r1
+		Laura, 17,r1
+		Marie, 16, r1
+	```
+
+Once we have read each line from the file, we split the line into its constituent parts.
+
+We use the split() function to separate each line, passing as a parameter the character we want to split with (usually a comma). 
+
+Based on the first row of the table above, the following code would print “1027”.
+</br>
+</br>
+
+!!! example
+
+	```Python
+		# Split the line based on commas, and store in an array
+		values = firstline.split(",")
+		print(values[2]) 
+	```
+ 
+## Complete example
+This example uses the table above. It reads in the data, and finds the names and towns of the schools. If you wanted to print this data (or otherwise use it), you could do so using the parts[] array or name/town variables.
+
+!!! example
+
+	```Python
+		# Open the file for reading
+		schoolfile = open("Schools.txt", "r")
+		
+		# Read in the data one line at a time
+		lines = schoolfile.readlines()
+		
+		# Loop through the schools, one at a time
+		for counter in range(0, 3):
+		   school = lines[counter]
+		   parts = school.split(",")
+		   name = parts[0]
+		   town = parts[1]
+		
+		# Close the file
+		schoolfile.close()
+	```
+
 
 ## Types of Variables
 
 In programming variables have a particular type and for National 5 there are five data types that you need to know:
 
-| Data Type   | Description                                  |
-| :---------: | :-------------------------------------------:|
-| Integer     | Whole number: 12, -50, 100                   |
-| Real number | With a decimal point: 22.5, 0.001            |
-| String      | Words and symbols: hello, abc123             |
-| Character   | A single letter, digit or symbol: a, Z, $, # |
-| Boolean     | True (1) or False (0)                        |
+
 
 !!! warning
 
