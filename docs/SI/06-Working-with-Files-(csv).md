@@ -21,9 +21,7 @@ Below is an example of how the data is stored:
 | :---: | :--:| :----------:
 | Peter | 17  | r1         |
 | Laura | 16  | r1         |
-| Marie | 16  | r1         |
-
-</p>	
+| Marie | 16  | r1         |	
 
 A .csv file would store the above data as:
 
