@@ -191,6 +191,84 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		``` text
 			Name: Peter Age: 17 Reg: r1
 	  	```
+### Array of Records and Files in Python
+
+### Part One
+
+=== "Python"
+
+    ``` python linenums="1"
+		from dataclasses import dataclass
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		file = open("School-Reg.csv", "r")
+		    ```
+
+=== "Explanation"
+
+	!!! info
+ 
+		Lines 1 - 10 are covered in __Working with Records__.
+  
+	__Line 12 - file = open("School-Reg.csv", "r")__
+	This line opens a file called "School-Reg.csv" in read mode so that we can read from it.
+
+### Part Two
+
+=== "Python"
+
+    ``` python linenums="1"	
+		from dataclasses import dataclass
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		file = open("School-Reg.csv", "r")
+		
+		for i in range(len(pupilRecord)):
+		    data = file.readline()
+		    data = data.strip("\n")
+		    data = data.split(",")
+		    pupilRecord[i] = SchoolReg(data[0], int(data[1]), data[2])
+    ```
+
+=== "Explanation"
+
+	__Line 14__
+	A loop that will go through each of the three student records in the pupilRecord list one by one.
+	
+	__Line 15 - data = file.readline()__
+	This line reads one line of data from the file. Each time the loop runs, it reads the next line from the file.
+	
+	__Line 16 - data = data.strip("\n")__
+	This removes the newline character (\n), which is an invisible character at the end of each line in a file. It's like cleaning up the data so there are no extra spaces or jumps to the next line.
+	
+	__Line 17 - data = data.split(",")__
+	This splits the line of data at each comma. Since it's a CSV file, the data for each student is separated by commas. After splitting, we get a list of pieces of information, like the student's name, age, and registration number.
+	
+	For example, if the line was "Peter,17,r1", after splitting it, we would get:
+	
+		``` text
+			data[0] = "Peter"
+			data[1] = "17"
+			data[2] = "r1"
+		```
+	__Line 19 - pupilRecord[i] = SchoolReg(data[0], int(data[1]), data[2])__
+	This line takes the pieces of data from the file and creates a SchoolReg object for each student. It fills in the student's name (data[0]), age (data[1]), and registration number (data[2]). The int() function converts the age from a string to a number.
 
 
 
