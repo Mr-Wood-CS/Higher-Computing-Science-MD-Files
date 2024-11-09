@@ -43,27 +43,27 @@ The options are:
 
 `Write`
 
-:   "w" (write Mode) creates a new file and writes to that file. If the file already exists, a new file will be created, overwriting the existing file.
+:   __"w" (write Mode)__ creates a new file and writes to that file. If the file already exists, a new file will be created, overwriting the existing file.
 
-!!! example
-
-	```Python
-		# This must be at the top of your program to allow Python to use the csv libary of commands.
-		import csv
-		
-		# Create a new file called "School-Reg.csv", overwriting any previous files of the same name.
-		file = open("School-Reg.csv", "w")
-		
-		# Add 3 new records to the file
-		newRecord1 = ("Peter,17,r1 \n")
-		newRecord2 = ("Laura,17,r1 \n")
-		newRecord3 = ("Marie,16,r1 \n")
-	```
+	!!! example
+	
+		```Python
+			# This must be at the top of your program to allow Python to use the csv libary of commands.
+			import csv
+			
+			# Create a new file called "School-Reg.csv", overwriting any previous files of the same name.
+			file = open("School-Reg.csv", "w")
+			
+			# Add 3 new records to the file
+			newRecord1 = ("Peter,17,r1 \n")
+			newRecord2 = ("Laura,17,r1 \n")
+			newRecord3 = ("Marie,16,r1 \n")
+		```
 
 `Read`
 
-:   Aliquam metus eros, pretium sed nulla venenatis, faucibus auctor ex. Proin
-    ut eros sed sapien ullamcorper consequat. Nunc ligula ante.
+:   __"r" (Read Mode)__ opens for reading and will not allow you to make changes.
+
 
     Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
     Nam vulputate tincidunt fringilla.
