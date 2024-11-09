@@ -13,11 +13,11 @@ In this lesson, we will learn about file handling, which allows our programs to 
 
 While it’s useful to create lists, make changes, and add new data, if your program resets every time it runs and your changes are lost, it’s not very practical. That’s why it’s sometimes necessary to save data outside the program, so it can be stored and any changes you make are saved.
 
-In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way (1).
-The easiest way to start learning about saving and loading data is by using a text file. 
-When opening an external file, you need to specify how the file will be used in your program. 
+In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. 
 
-__Below I have detailed how to do this.__
+File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way.
+
+The easiest way to start learning about saving and loading data is by using a text file. 
 
 ##  Options (modes)
 
@@ -56,7 +56,6 @@ __Below I have detailed how to do this.__
 			file.close()
 		```
 	!!! tip
- 
 	Note: you can also use file.readline() to read a file. Readline reads a single line of characters from the current position of the file and returns the data as a string. Readline however is not required at __Higher__
 
 #### `Append Mode`
