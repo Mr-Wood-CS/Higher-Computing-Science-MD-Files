@@ -18,7 +18,7 @@ By using records, we can keep all related data about a single person or object t
 
 __This is especially useful because most systems we work with, like databases, organize data in this way.__
 
-## Record Structure
+## Record Structures
 
 A record structure is like creating your own custom data type. 
 
