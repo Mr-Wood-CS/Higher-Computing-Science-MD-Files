@@ -1,8 +1,10 @@
 # Parrllel 1D Arrays
 
-## What you need to Know
+!!! info
 
-__You must be able to describe, exemplify and implement parallel 1D arrays.__
+	## What you need to Know
+	
+	__You must be able to describe, exemplify and implement parallel 1D arrays.__
 
 ## Explanation
 
