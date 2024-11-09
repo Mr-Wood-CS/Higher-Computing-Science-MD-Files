@@ -1,8 +1,24 @@
-# Working with Records
+# Parrllel 1D Arrays
 
 ## Explanation
 
-<p style="text-align:center;"> So far, we’ve used only one type of data structure to store multiple values: the array. 
+You already know that an array is a list of related values, called elements, that can be referred to by number, __e.g. temperature[0], temperature[5]__ etc. 
+
+| Temperature  | 12 | 20 | 21|
+
+This example below now adds a second array that records the date on which the temperature was taken.
+
+We can look up the temperature on, say, the 8th of June, by looking for that date, and reading the corresponding temperature (14°). 
+
+![Image title](../Images/Parallel-1D-Arrays-1.png){ width="300" }
+
+__These are parallel arrays, because we can look up corresponding values, like a table.__
+
+
+
+
+
+The following example is an array of temperatures in the month of June.
 </br>
 </br>
 Remember, an array is like a list of related variables that all share the same data type. For example, <span style="color: #6191F8"> an array could store a list of numbers or a list of names, but not both</span>.
