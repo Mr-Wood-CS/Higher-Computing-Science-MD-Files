@@ -4,7 +4,7 @@
 
 You already know that an array is a list of related values, called elements, that can be referred to by number, e.g. temperature[0], temperature[5] etc. 
 
-![Image title](../Images/Parallel-1D-Arrays-1.png){ width="600" }
+![Image title](../Images/Parallel-1D-Arrays-1.png){ width="800" }
 
 This example below now adds a second array that records the date on which the temperature was taken.
 
