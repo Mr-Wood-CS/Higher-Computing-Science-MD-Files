@@ -180,17 +180,17 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Explanation"
 
-__Line 17 - pupilRecord = [SchoolReg() for x in range(0,3)]__
-This is another loop that goes through each student record in the pupilRecord list only this time it’s going to print the details of every student one at a time.
-
-__Line 18 - print("Name: ", pupilRecord[x].Name, "Age: ", pupilRecord[x].Age, "Reg: ", pupilRecord[x].Reg)__
-This line prints out the name, age, and registration number for each student in the list.
-
-!!! example
-
-	``` text
-		Name: Peter Age: 17 Reg: r1
-  	```
+	__Line 17 - pupilRecord = [SchoolReg() for x in range(0,3)]__
+	This is another loop that goes through each student record in the pupilRecord list only this time it’s going to print the details of every student one at a time.
+	
+	__Line 18 - print("Name: ", pupilRecord[x].Name, "Age: ", pupilRecord[x].Age, "Reg: ", pupilRecord[x].Reg)__
+	This line prints out the name, age, and registration number for each student in the list.
+	
+	!!! example
+	
+		``` text
+			Name: Peter Age: 17 Reg: r1
+	  	```
 
 
 
