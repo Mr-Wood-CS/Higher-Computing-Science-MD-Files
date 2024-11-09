@@ -15,13 +15,11 @@ It allows greater control over the data than a simple text file, as each row is 
 
 Below is an example of how the data is stored:
 
-!!! example
-
-	| Name  | Age | Reg Number |
-	| :---: | :--:| :----------:
-	| Peter | 17  | r1         |
-	| Laura | 16  | r1         |
-	| Marie | 16  | r1         |
+| Name  | Age | Reg Number |
+| :---: | :--:| :----------:
+| Peter | 17  | r1         |
+| Laura | 16  | r1         |
+| Marie | 16  | r1         |
 	
 A .csv file would store the above data as:
 
