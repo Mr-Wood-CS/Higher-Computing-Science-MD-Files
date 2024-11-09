@@ -1,20 +1,34 @@
 # Working with Records
 
+!!! info "What you need to know"
+
+	You must be able to describe, exemplify and implement records 
+
 ## Explanation
 
-<p style="text-align:center;"> So far, we’ve used only one type of data structure to store multiple values: the array. 
-</br>
-</br>
-Remember, an array is like a list of related variables that all share the same data type. For example, <span style="color: #6191F8"> an array could store a list of numbers or a list of names, but not both</span>.
-</br>
-</br>
-In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way (1).
-The easiest way to start learning about saving and loading data is by using a text file. 
-</br>
-</br>
-When opening an external file, you need to specify how the file will be used in your program. </p>
+So far, we’ve used only one type of data structure to store multiple values: the array. 
 
-Below I have detailed how to do this.
+Remember, an array is like a list of related variables that all share the same data type. For example, an array could store a list of numbers or a list of names, but not both.
+
+While arrays can only hold one type of data, records allow us to store different types of data together in a single structure. For example, one record can store a name (string), an age (integer), and a status (Boolean) all in one place.
+
+Just like in a database, records help us organize related information more efficiently.
+
+By using records, we can keep all related data about a single person or object together in one structure, and we can use real-world names for each category (called fields) to make the data easier to understand and manage. 
+
+__This is especially useful because most systems we work with, like databases, organize data in this way.__
+
+## Record Structure
+
+A record structure is like creating your own custom data type. 
+
+As a programmer, you define a record with a name that represents something real, like "Student" or "Product" and specify different categories (fields) for storing information. 
+
+Each field has a name and a specific data type (e.g., string, integer, Boolean), so the program knows how to store and handle each piece of data. This way, when the program creates actual records, it knows exactly what 
+
+kind of information to expect in each field.
+
+## Creating a Single Record Structure
 
 !!! example
 	```Python
