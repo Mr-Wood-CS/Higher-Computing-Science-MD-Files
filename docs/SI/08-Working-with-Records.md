@@ -24,9 +24,9 @@ A record structure is like creating your own custom data type.
 
 As a programmer, you define a record with a name that represents something real, like "Student" or "Product" and specify different categories (fields) for storing information. 
 
-Each field has a name and a specific data type (e.g., string, integer, Boolean), so the program knows how to store and handle each piece of data. This way, when the program creates actual records, it knows exactly what 
+Each field has a name and a specific data type (e.g., string, integer, Boolean), so the program knows how to store and handle each piece of data. 
 
-kind of information to expect in each field.
+This way, when the program creates actual records, it knows exactly what kind of information to expect in each field.
 
 ## Creating a Single Record Structure
 
@@ -76,3 +76,72 @@ kind of information to expect in each field.
  
 	__Line 8 - Reg: str = ""__
 	This variable is called Reg, which stands for "registration number." It’s also a string (a group of letters or numbers). At first, it's an empty string "", but we will fill it in later.
+
+### Part Three
+
+=== "Python"
+
+    ``` python linenums="1"
+		from dataclasses import dataclass
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = SchoolReg()
+		pupilRecord.Name = "Peter"
+		pupilRecord.Age = 17
+		pupilRecord.Reg = "r1"
+    ```
+
+=== "Explanation"
+
+	__Line 10 -  pupilRecord = SchoolReg()__
+	Now we create an object called pupilRecord from the SchoolReg class. Think of the class as a cookie cutter, and this object is a cookie made from it. This object will store a student's name, age, and registration number.
+ 
+	__Line 11 - pupilRecord.Name = "Peter"__
+	Here, we set the Name of the pupilRecord object to "Peter". Before it was empty (""), but now it's filled with the name "Peter".
+	
+ 	__Line 12 - pupilRecord.Age = 17__
+	Next, we set the Age for pupilRecord to 17. Before, it was 0, but now we know Peter is 17 years old.
+	
+ 	__Line 13 - pupilRecord.Reg = "r1"_
+	Here, we set the registration number (Reg) to "r1". Now, the student Peter has a registration number "r1".
+
+### Part Four
+
+=== "Python"
+
+    ``` python linenums="1"
+		from dataclasses import dataclass
+	
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = SchoolReg()
+		pupilRecord.Name = "Peter"
+		pupilRecord.Age = 17
+		pupilRecord.Reg = "r1"
+		
+		print (pupilRecord.Name) 
+		print (pupilRecord.Age) 
+		print (pupilRecord.Reg) 
+    ```
+
+=== "Explanation"
+
+	__Line 15 - print(pupilRecord.Name)__
+	This line tells the computer to print (show) the name of the student, which is "Peter". The computer will display "Peter" on the screen.
+	
+ 	__Line 16 - print(pupilRecord.Age)__
+	This prints the student's age, which is 17. The computer will show 17 on the screen.
+ 
+	__Line 17 - print(pupilRecord.Reg)__
+	Finally, this prints the student's registration number, which is "r1". The computer will show "r1".
