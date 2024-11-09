@@ -14,7 +14,7 @@ For example, if we have three students, we can store their name, age, and regist
 
 These boxes are part of a record, and we can easily look inside each one to see or change the details. 
 
-## Working with Arrays of Records in Python
+## Working with Arrays of Records in Python (basic method)
 
 ### Part One
 
@@ -115,7 +115,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 	Finally, this prints the registration number of the first student, which is "r1".
 
 
-## Array of Records in Python (Efficient  Method)
+## Array of Records in Python (efficient method)
 
 ### Part One
 
@@ -123,7 +123,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
     ``` python linenums="1"
 		from dataclasses import dataclass
-	
+		
 		@dataclass
 		
 		class SchoolReg:
@@ -131,29 +131,65 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    Age : int = 0
 		    Reg : str = ""
 		
-		pupilRecord = SchoolReg()
-		pupilRecord.Name = "Peter"
-		pupilRecord.Age = 17
-		pupilRecord.Reg = "r1"
-		
-		print (pupilRecord.Name) 
-		print (pupilRecord.Age) 
-		print (pupilRecord.Reg) 
+		pupilRecord = [SchoolReg() for x in range (0,3)]
     ```
 
 === "Explanation"
 
-	__Line 15 - print(pupilRecord.Name)__
-	This line tells the computer to print (show) the name of the student, which is "Peter". The computer will display "Peter" on the screen.
-	
- 	__Line 16 - print(pupilRecord.Age)__
-	This prints the student's age, which is 17. The computer will show 17 on the screen.
+	!!! info
  
-	__Line 17 - print(pupilRecord.Reg)__
-	Finally, this prints the student's registration number, which is "r1". The computer will show "r1".
+		Lines 1 - 8 are covered in __Working with Records__.
+  
+	__Line 12 - for x in range(len(pupilRecord)):__
+	The range(len(pupilRecord)) makes the loop go through each student one at a time (three students in this case).
+	
+	__Line 13 - pupilRecord[x].Name = str(input("Enter Name: "))__
+	This line asks the user to type a name for each student using the input() function. Whatever the user types in is stored in the Name variable for each student in the list. For example, the first time the loop runs, it asks for the name of pupilRecord[0].
+	
+	__Line 14 - pupilRecord[x].Age = int(input("Enter Age: "))__
+	This line asks the user to type the student's age. The input() function is used again, and the number typed is stored as the student's age. It’s converted into an integer (whole number). For example, the first time, it will store the age for pupilRecord[0].
+	
+	__Line 15 - pupilRecord[x].Reg = str(input("Enter Reg: "))__
+	This line asks the user to type the student's registration number. The registration number is stored as a string (letters and numbers) for each student. For example, the first time, it stores the registration number for pupilRecord[0].
 
 
+### Part Two
 
+=== "Python"
+
+    ``` python linenums="1"
+		from dataclasses import dataclass
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		for x in range(len(pupilRecord)):
+		   pupilRecord[x].Name = str(input("Enter Name: "))
+		   pupilRecord[x].Age = int(input("Enter Age: "))
+		   pupilRecord[x].Reg = str(input("Enter Reg: "))
+		
+		for x in range(len(pupilRecord)):
+		    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
+    ```
+
+=== "Explanation"
+
+__Line 17 - pupilRecord = [SchoolReg() for x in range(0,3)]__
+This is another loop that goes through each student record in the pupilRecord list only this time it’s going to print the details of every student one at a time.
+
+__Line 18 - print("Name: ", pupilRecord[x].Name, "Age: ", pupilRecord[x].Age, "Reg: ", pupilRecord[x].Reg)__
+This line prints out the name, age, and registration number for each student in the list.
+
+!!! example
+
+	``` text
+		Name: Peter Age: 17 Reg: r1
 
 
 
