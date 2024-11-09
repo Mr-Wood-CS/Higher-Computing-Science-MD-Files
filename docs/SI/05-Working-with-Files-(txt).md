@@ -19,115 +19,60 @@ When opening an external file, you need to specify how the file will be used in 
 
 __Below I have detailed how to do this.__
 
-In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way (1).
-The easiest way to start learning about saving and loading data is by using a text file. 
-</br>
-</br>
-When opening an external file, you need to specify how the file will be used in your program. </p>
+##  Options (modes)
 
-## Python Variable Naming Rules
+#### `Write Mode`
 
-- A variable name must start with a letter or the underscore character
-- A variable name cannot start with a number
-- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-- Variable names are case-sensitive (age, Age and AGE are three different variables)
-- A variable name cannot be any of the **Python keywords**.
+:   __"w" (write Mode)__ creates a new file and writes to that file. If the file already exists, a new file will be created, overwriting the existing file.
 
-and although this one is not a rule....
+	!!! example
+	
+		```Python
+			# Before using a file in a program, it must first be opened.
+			# To do this, link the file to an object by assigning it a reference name.
+			# The open function, written as open(“file name”, “access type”), locates the file. 
+			file = open("School-Reg.txt", "w")
+			
+			# Use the file object’s .write(string) method to insert string data into the file
+			# The string being written can either be a direct string or a string variable.
+			file.write("Name: Peter, Age: 17, Reg: R1 \n")
+			file.write("Name: Laura, Age: 17, Reg: R1 \n")
+		```
 
-- It is important to use **meaningful** or **sensible** variable names. 
+#### `Read Mode`
 
-## Types of Variables
+:   __"r" (Read Mode)__ opens for reading and will not allow you to make changes.
 
-In programming variables have a particular type and for National 5 there are five data types that you need to know:
+	!!! example
+	
+		```Python
+			# Open the School-Reg file in 'read mode'. 
+			file = open("School-Reg.txt", "r")
+			
+			# Display the entire file.
+			print(file.read())
+			
+			# Close files once the program has finished using it.
+			file.close()
+		```
+	!!! tip
+ 
+	Note: you can also use file.readline() to read a file. Readline reads a single line of characters from the current position of the file and returns the data as a string. Readline however is not required at __Higher__
 
-| Data Type   | Description                                  |
-| :---------: | :-------------------------------------------:|
-| Integer     | Whole number: 12, -50, 100                   |
-| Real number | With a decimal point: 22.5, 0.001            |
-| String      | Words and symbols: hello, abc123             |
-| Character   | A single letter, digit or symbol: a, Z, $, # |
-| Boolean     | True (1) or False (0)                        |
+#### `Append Mode`
 
-!!! warning
+:   __"a" (Append Mode)__ used to add new data to the end of the file.
 
-    Once a variable has been set up with a particular type, you can only assign it data of that type.
-
-
-!!! example
-	```Python
-	# This is an integer
-	myage = int(15)
-
-	# This is a real number
-	price = float(0.99)
-
-	# This is a string
-	faveSubject = str("Computing")
-
-	# This is a character
-	firstInitial = char("F")
-
-	# This is a Boolean
-	isStudent = bool(1)
-	```
-
-## Calculations
-
-Python programs will often carry out calculations with operators. The result is usually stored in a variable:
-
-!!! example
-```Python
-num1 = 5
-num2 = 7
-sum = num1 + num2
-```
-
-You can use the following operators:
-
-!!! example
-	```Python
-	# Three variables
-	num1 = 5
-	num2 = 7
-	sum = 0.0
-
-	# Addition
-	sum = num1 + num2
-
-	# Subtraction
-	sum = num1 - num2
-
-	# Division
-	sum = num1 / num2
-
-	# Multiplication
-	sum = num1 * num2
-
-	# Raise to a power
-	sum = num1 ** num2
-
-	#Note that “raising to the power” means, for example, num1**num2. 
-
-	#To square or cube a number, you would say:
-	square = num1 ** 2
-	cube = num1 ** 3
-	```
-
-## String Concatenation
-
-String concatenation is the term used when **joining** two strings.
-
-!!! example
-	```Python
-	word1 = “Hello”
-	word2 = “World”
-
-	sentence = word1 + word2
-	```
-
-!!! tip
-
-    The example above doesn’t include a space, you would have to add a space to the end of **“Hello”** or the beginning of **“World”**. 
-
-
+	!!! example
+	
+		```Python
+			# Open the School-Reg file in 'append mode'
+			file = open("School-Reg.txt", "a")
+			
+			# Add another line to the file
+			file.write("Name: Karl, Age: 16, Reg: R1 \n")
+			
+			# Close file once the program has finished using it. 
+			# Note: if the file.close() line is not included, the changes will not be saved to the txt file.
+			file.close()
+		```
