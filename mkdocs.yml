@@ -13,6 +13,7 @@ nav:
       - Scope of Variables and Parameter Passing: 'SI/02-Scope-of-Variables-and-Parameter-Passing.md'
       - Working with Files: 'SI/05-Working-with-Files-(txt).md'
       - Working with .csv Files: 'SI/06-Working-with-Files-(csv).md'
+      - Parrallel 1 D Arrays: 'SI/07-Parrallel-1d-Arrays.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
