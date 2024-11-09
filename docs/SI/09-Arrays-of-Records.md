@@ -190,6 +190,7 @@ This line prints out the name, age, and registration number for each student in 
 
 	``` text
 		Name: Peter Age: 17 Reg: r1
+  	```
 
 
 
