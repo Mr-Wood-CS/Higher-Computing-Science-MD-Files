@@ -65,3 +65,36 @@ We then split each line into parts __(comma separated values)__, e.g.:
   ![img 5](../Images/Parallel-1D-Arrays-5.png){ width="800" }
 </figure>
 
+!!! example
+	
+	```Python
+		import csv
+		
+		# Open the file for reading
+		file = open("School-Reg.csv", "r")
+		    
+		# Assign Parallel arrays for school reg data
+		name = [str] * 3
+		age = [int] * 3
+		regGroup = [str] * 3
+		
+		# Loop through the array of lines
+		for line in range(0, 3):
+		    data = file.readline()
+		    # Strip characters that are not required
+		    data = data.strip("\n")
+		    # Split the data on the comma
+		    data = data.split(",")
+		    
+		   # Store the 'data' in the parallel arrays
+		    name[line] = data[0]
+		    age[line] = data[1]
+		    regGroup[line] = data[2]
+		    
+		# Display the arrays
+		for i in range (0,3):
+		  print("Name: " + name[i] + " Age: " + str(age[i]) + " Reg: " + regGroup[i])
+		    
+		# Close the file
+		file.close()
+	```
