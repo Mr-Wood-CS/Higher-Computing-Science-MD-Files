@@ -70,7 +70,6 @@ theme:
     - content.code.copy
     - navigation.tabs
     - navigation.tabs.sticky
-    - toc.integrate
     - navigation.top
     - navigation.indexes 
     - navigation.expand
