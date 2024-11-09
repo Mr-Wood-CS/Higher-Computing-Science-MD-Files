@@ -121,8 +121,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-    ``` python linenums="1"
-    
+ 	``` python linenums="1"
 		from dataclasses import dataclass
 		
 		@dataclass
@@ -133,6 +132,14 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    Reg : str = ""
 		
 		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		for x in range(len(pupilRecord)):
+		   pupilRecord[x].Name = str(input("Enter Name: "))
+		   pupilRecord[x].Age = int(input("Enter Age: "))
+		   pupilRecord[x].Reg = str(input("Enter Reg: "))
+		
+		for x in range(len(pupilRecord)):
+		    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
     ```
 
 === "Explanation"
