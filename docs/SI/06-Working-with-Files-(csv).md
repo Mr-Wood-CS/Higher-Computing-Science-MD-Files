@@ -30,11 +30,11 @@ A .csv file would store the above data as:
 ```
 It may be easier to think of the data as being separated into columns and rows that use an index to identify them:
 
-| Name  | Age | Reg Number |
-| :---: | :--:| :----------:
-| Peter | 17  | r1         |
-| Laura | 16  | r1         |
-| Marie | 16  | r1         |
+|     | Name  | Age | Reg Number |
+| :-: | :---: | :--:| :----------:
+| 0   | Peter | 17  | r1         |
+| 1   | Laura | 16  | r1         |
+| 2   | Marie | 16  | r1         |
 
 ##  Working with .csv Files
 
