@@ -61,7 +61,7 @@ The options are:
 			newRecord3 = ("Marie,16,r1 \n")
 		```
 
-`Read Mode`
+#### `Read Mode`
 
 :   __"r" (Read Mode)__ opens for reading and will not allow you to make changes.
 
@@ -80,7 +80,7 @@ The options are:
 			file.close()
 		```
 
-`Append Mode`
+#### `Append Mode`
 
 :   "a" (Append Mode) used to add new data to the end of the file.
 
