@@ -20,7 +20,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-    ```python linenums="1"
+	```python linenums="1"
 		from dataclasses import dataclass
 		
 		@dataclass
@@ -31,7 +31,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    Reg : str = ""
 		
 		pupilRecord = [SchoolReg() for x in range (0,3)]
-    ```
+	```
 
 === "Explanation"
 
@@ -50,7 +50,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-    ``` python linenums="1"
+	``` python linenums="1"
 		from dataclasses import dataclass
 		
 		@dataclass
@@ -65,7 +65,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		pupilRecord[0].Name = "Peter"
 		pupilRecord[0].Age = 17
 		pupilRecord[0].Reg = "r1"
-    ```
+	```
 
 === "Explanation"
 
@@ -82,7 +82,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-    ``` python linenums="1"
+	``` python linenums="1"
 		from dataclasses import dataclass
 		
 		@dataclass
@@ -101,7 +101,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		print (pupilRecord[0].Name) 
 		print (pupilRecord[0].Age) 
 		print (pupilRecord[0].Reg) 
-    ```
+	```
 
 === "Explanation"
 
@@ -121,27 +121,27 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-		```python linenums="1"
-	 
-			from dataclasses import dataclass
-			
-			@dataclass
-			
-			class SchoolReg:
-			    Name : str = ""
-			    Age : int = 0
-			    Reg : str = ""
-			
-			pupilRecord = [SchoolReg() for x in range (0,3)]
-			
-			for x in range(len(pupilRecord)):
-			   pupilRecord[x].Name = str(input("Enter Name: "))
-			   pupilRecord[x].Age = int(input("Enter Age: "))
-			   pupilRecord[x].Reg = str(input("Enter Reg: "))
-			
-			for x in range(len(pupilRecord)):
-			    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
-		```
+	```python linenums="1"
+	
+		from dataclasses import dataclass
+		
+		@dataclass
+		
+		class SchoolReg:
+		    Name : str = ""
+		    Age : int = 0
+		    Reg : str = ""
+		
+		pupilRecord = [SchoolReg() for x in range (0,3)]
+		
+		for x in range(len(pupilRecord)):
+		   pupilRecord[x].Name = str(input("Enter Name: "))
+		   pupilRecord[x].Age = int(input("Enter Age: "))
+		   pupilRecord[x].Reg = str(input("Enter Reg: "))
+		
+		for x in range(len(pupilRecord)):
+		    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
+	```
 
 === "Explanation"
 
@@ -166,7 +166,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
- 	``` python linenums="1"
+	``` python linenums="1"
 		from dataclasses import dataclass
 		
 		@dataclass
@@ -185,7 +185,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		
 		for x in range(len(pupilRecord)):
 		    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
-    	```
+	```
 
 === "Explanation"
 
@@ -206,20 +206,20 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-    ``` python linenums="1"
+	``` python linenums="1"
 		from dataclasses import dataclass
 		
 		@dataclass
 		
 		class SchoolReg:
-		    Name : str = ""
-		    Age : int = 0
-		    Reg : str = ""
+		Name : str = ""
+		Age : int = 0
+		Reg : str = ""
 		
 		pupilRecord = [SchoolReg() for x in range (0,3)]
 		
 		file = open("School-Reg.csv", "r")
-		    ```
+	```
 
 === "Explanation"
 
@@ -234,7 +234,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-    ``` python linenums="1"	
+	``` python linenums="1"	
 		from dataclasses import dataclass
 		
 		@dataclass
@@ -253,7 +253,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    data = data.strip("\n")
 		    data = data.split(",")
 		    pupilRecord[i] = SchoolReg(data[0], int(data[1]), data[2])
-    ```
+	```
 
 === "Explanation"
 
@@ -283,7 +283,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 
 === "Python"
 
-    ``` python linenums="1"	
+	``` python linenums="1"	
 		from dataclasses import dataclass
 		import CSV
 		
@@ -308,7 +308,7 @@ These boxes are part of a record, and we can easily look inside each one to see 
 		    print ("Name: " , pupilRecord[x].Name , "Age: " , pupilRecord[x].Age , "Reg: " , pupilRecord[x].Reg )
 		    
 		file.close()
-    ```
+	```
 
 === "Explanation"
 
