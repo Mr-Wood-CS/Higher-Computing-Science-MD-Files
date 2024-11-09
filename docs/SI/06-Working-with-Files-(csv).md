@@ -82,7 +82,7 @@ The options are:
 
 #### `Append Mode`
 
-:   "a" (Append Mode) used to add new data to the end of the file.
+:   __"a" (Append Mode)__ used to add new data to the end of the file.
 
 	!!! example
 	
