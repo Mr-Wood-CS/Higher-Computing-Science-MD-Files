@@ -41,7 +41,7 @@ When opening a .csv file to use, you must first specify how that file will be us
 
 The options are:
 
-`Write`
+`Write Mode`
 
 :   __"w" (write Mode)__ creates a new file and writes to that file. If the file already exists, a new file will be created, overwriting the existing file.
 
@@ -60,14 +60,44 @@ The options are:
 			newRecord3 = ("Marie,16,r1 \n")
 		```
 
-`Read`
+`Read Mode`
 
 :   __"r" (Read Mode)__ opens for reading and will not allow you to make changes.
 
+	!!! example
+	
+		```Python
+			import csv
+			
+			# Open "School-Reg.csv" in read mode.
+			file = open("School-Reg.csv", "r")
+			
+			# Display the records one row at a time.
+			for row in file:
+			    print(row)
+			           
+			file.close()
+		```
 
-    Duis mollis est eget nibh volutpat, fermentum aliquet dui mollis.
-    Nam vulputate tincidunt fringilla.
-    Nullam dignissim ultrices urna non auctor.
+`Append Mode`
+
+:   "a" (Append Mode) used to add new data to the end of the file.
+
+	!!! example
+	
+		```Python
+			import csv
+
+			# Open "School-Reg.csv" in append mode.
+			file = open("School-Reg.csv", "a")
+			
+			# Ask user to enter name, age and reg
+			name = str(input("Enter Name: "))
+			age = int(input("Enter Age: "))
+			regNumber = str(input("Enter Reg: "))
+		```
+
+
 ## Complete example
 This example uses the table above. It reads in the data, and finds the names and towns of the schools. If you wanted to print this data (or otherwise use it), you could do so using the parts[] array or name/town variables.
 
