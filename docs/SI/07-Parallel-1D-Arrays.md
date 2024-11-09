@@ -6,6 +6,8 @@ You already know that an array is a list of related values, called elements, tha
 
 ![Img 1](../Images/Parallel-1D-Arrays-1.png){ width="300" }
 
+![Image title](https://dummyimage.com/600x400/){ width="300" }
+
 This example below now adds a second array that records the date on which the temperature was taken.
 
 
