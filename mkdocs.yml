@@ -14,6 +14,7 @@ nav:
       - Working with Files: 'SI/05-Working-with-Files-(txt).md'
       - Working with .csv Files: 'SI/06-Working-with-Files-(csv).md'
       - Parrallel 1D Arrays: 'SI/07-Parallel-1D-Arrays.md'
+      - Working with Records: 'SI/08-Working-with-Records.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
