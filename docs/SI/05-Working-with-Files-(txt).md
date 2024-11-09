@@ -7,16 +7,18 @@
 - :fontawesome-brands-python: [Golf Championship](../Static/Golf-Championship.py){:download="Golf-Championship.py"}
 </div>
 
-
-
 ## Explanation
 
-<p style="text-align:center;"> In this lesson, we will learn about file handling, which allows our programs to manage large amounts of data efficiently, similar to how real-world systems work.
-</br>
-</br>
+In this lesson, we will learn about file handling, which allows our programs to manage large amounts of data efficiently, similar to how real-world systems work.
+
 While it’s useful to create lists, make changes, and add new data, if your program resets every time it runs and your changes are lost, it’s not very practical. That’s why it’s sometimes necessary to save data outside the program, so it can be stored and any changes you make are saved.
-</br>
-</br>
+
+In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way (1).
+The easiest way to start learning about saving and loading data is by using a text file. 
+When opening an external file, you need to specify how the file will be used in your program. 
+
+__Below I have detailed how to do this.__
+
 In real-world systems that handle huge amounts of data, such as millions of inputs, this data is usually provided to the program through a file. File handling is often called sequential file processing because the program reads the data in the same order it appears in the file, and writes it back in a similar sequence. This ensures that data is saved and retrieved in an organized and efficient way (1).
 The easiest way to start learning about saving and loading data is by using a text file. 
 </br>
