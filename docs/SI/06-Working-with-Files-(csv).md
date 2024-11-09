@@ -23,13 +23,11 @@ Below is an example of how the data is stored:
 	
 A .csv file would store the above data as:
 
-!!! example
-
-	```txt
-		Peter, 17, r1
-		Laura, 17,r1
-		Marie, 16, r1
-	```
+```txt
+	Peter, 17, r1
+	Laura, 17, r1
+	Marie, 16, r1
+```
 
 Once we have read each line from the file, we split the line into its constituent parts.
 
