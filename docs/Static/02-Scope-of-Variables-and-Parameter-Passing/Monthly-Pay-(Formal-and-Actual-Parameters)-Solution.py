@@ -1,6 +1,6 @@
 def Employee_Info():
-    employee_name = raw_input("Enter employee's name:  ")
-    pay = float(raw_input("Enter employee's monthly pay:  "))
+    employee_name = input("Enter employee's name:  ")
+    pay = float(input("Enter employee's monthly pay:  "))
     bonus = float(raw_input("Enter employee's bonus this month:  "))
 
     return employee_name, pay, bonus
