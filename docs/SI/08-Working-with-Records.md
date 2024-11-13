@@ -3,7 +3,7 @@
 ## Lesson Files
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-python: [Cat Records](../Static/Working-with-Records/Cat-Records-Program.py){:download="Cat-Records-Program.py"}
+- :fontawesome-brands-python: [Cat Records](../Static/Working-With-Records/Cat-Records-Program.py){:download="Cat-Records-Program.py"}
 </div>
 
 <div class="grid cards" markdown>
