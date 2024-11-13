@@ -3,7 +3,10 @@
 ## Lesson Files
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-python: [Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
+- :fontawesome-brands-python: [Cat Records](../Static/Working-with-Records/Cat-Records-Program.py){:download="Cat-Records-Program.py"}
+</div>
+
+<div class="grid cards" markdown>
 - :fontawesome-brands-python: [Golf Championship](../Static/Golf-Championship.py){:download="Golf-Championship.py"}
 </div>
 
