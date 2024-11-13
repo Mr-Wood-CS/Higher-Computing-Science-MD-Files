@@ -7,7 +7,7 @@
 </div>
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-python: [Golf Championship](../Static/Golf-Championship.py){:download="Golf-Championship.py"}
+- :fontawesome-brands-python: [Address Book](../Static/Working-With-Records/Address-Book.py){:download="Address-Book.py"}
 </div>
 
 !!! info "What you need to know"
