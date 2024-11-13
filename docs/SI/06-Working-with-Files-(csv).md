@@ -1,11 +1,12 @@
 # Working with .csv Files
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-python: [Glazing-Company](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
-- :fontawesome-brands-python: [Glazing-Company](../Static/Golf-Championship.py){:download="Golf-Championship.py"}
+- :fontawesome-brands-python: [Glazing-Company.py](../Static/5.2-Glazing-Company.py){:download="Glazing-Company.py"}
 </div>
 
-Golf-Championship
+<div class="grid cards" markdown>
+- :fontawesome-brands-python: [Glazing-Company.csv](../Static/Glazing_Company_Program.csv){:download="Glazing-Company.csv"}
+</div>
 
 ## Explanation
 
