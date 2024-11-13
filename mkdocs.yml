@@ -1,6 +1,6 @@
 site_name: Higher Computing Science
 nav:
-    - Home: 'index.md'
+    - Home: 'docs/index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
       - Development Methodologies: 'SDD/01-Development-Methodologies.md'
