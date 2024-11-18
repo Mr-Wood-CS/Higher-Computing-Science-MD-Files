@@ -62,7 +62,7 @@ The example below asks for a target (search term the user is looking for).
 * If each name matches the target, it switches the ‘found’ variable to true. 
 * At the end of the program, we could know if the name was in the list by checking the value of the found variable.
 
-=== "Algorithm Example"
+=== "__Algorithm Example__"
 
 	```pseudocode linenums="1"
 		Set found to false
@@ -76,19 +76,17 @@ The example below asks for a target (search term the user is looking for).
 
 	```
 
-=== "SQA-style marking scheme for a linear search (4 marks)"
+=== "__SQA-style Marking Scheme for a Linear Search (4 marks)__"
 
 	``` text
-		Loop through the elements of the array (1 mark)
+ 		* Initialise the variable (1 mark)
+ 
+		* Loop through the elements of the array (1 mark)
 		
-		Check if the element matches target (1 mark)
+		* Check if the element matches target (1 mark)
 		
-		Set variable to true (1 mark)
+		* Set variable to true (1 mark)
 	```
-
-
-=== "Python"
-
 
 ### Part Three
 
