@@ -158,8 +158,6 @@ The example below asks for a target (search term the user is looking for).
 
 === "Explanation"
 
-    Sometimes, we want to know the position of an element in the array - for instance, the target was found at position 5. This example uses the same basic program as the one above, but instead of reporting whether the name is found, it reports its position.
-
-    We set the starting position to -1. This is because it isn’t possible to be at position -1 in the array. That way, we know that anything other than -1 must mean the item was found, so the position was changed.
-
-    __If, at the end of the program, the value of position was still -1, we would know that the target hadn’t been found.__
+    This program has two arrays: one of pupil names, and one of marks. Both arrays have the same number of elements. Looking at a name, we can find their mark by going to the corresponding element in the marks array (so the third name corresponds to the third mark). 
+    
+    The program asks for a target name. It loops through the first array, and finds the position where that name is in the list. Later, we can find the corresponding mark, because if the name was found at pupils[position], their mark must be stored at marks[position].
