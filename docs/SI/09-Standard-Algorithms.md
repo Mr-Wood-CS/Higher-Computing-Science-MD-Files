@@ -78,13 +78,13 @@ The example below asks for a target (search term the user is looking for).
 
 === "__SQA-style Marking Scheme for a Linear Search (4 marks)__"
 
-	    * Initialise the variable (1 mark)
+    * Initialise the variable (1 mark)
  
-	    * Loop through the elements of the array (1 mark)
+    * Loop through the elements of the array (1 mark)
 		
-            * Check if the element matches target (1 mark)
+    * Check if the element matches target (1 mark)
 		
-	    * Set variable to true (1 mark)
+    * Set variable to true (1 mark)
 
 
 ### Part Three
