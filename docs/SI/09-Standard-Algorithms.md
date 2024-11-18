@@ -18,11 +18,9 @@ For Higher, we add three more standard algorithms:
 * Count occurrences
 * Find minimum/maximum
 
-These algorithms are pretty simple to understand on their own. 
+All of the above require you to be able to traverse an array.
 
-Plus, all three of them work by going through a list of items one by one (__traversing an array)__
-
-## Traversing an array in Python
+## Traversing an array in Python - Refresh
 
 === "Pseudocode"
 
@@ -66,63 +64,31 @@ The example below asks for a target (search term the user is looking for).
 
 === "Algorithm Example"
 
-	```python linenums="1"
-		from dataclasses import dataclass
-		
-		@dataclass
-		
-		class SchoolReg:
-		    Name : str = ""
-		    Age : int = 0
-		    Reg : str = ""
-		
-		pupilRecord = [SchoolReg() for x in range (0,3)]
+	```pseudocode linenums="1"
+		Set found to false
+		Input target
+  
+		For counter from 0 to 9
+			If names(counter) == target then
+				Set found to true
+			End if
+		End for loop
+
 	```
 
-=== "Explanation"
+=== "SQA-style marking scheme for a linear search (4 marks)"
 
-	!!! info
- 
-		Lines 1 - 8 are covered in __Working with Records__.
- 
-	__Line 10 - pupilRecord = [SchoolReg() for x in range(0,3)]__
-	This line creates a list called pupilRecord. A list is like a box where we can store many things. In this case, we are creating two empty student records because the range (0,3) means it will create three spots, one for pupilRecord[0], one for pupilRecord[1] and one for pupilRecord[2].
-	
- 	__In short, this line says:__
-  
-	"Make 3 empty student records using the SchoolReg class."
+	``` text
+		Loop through the elements of the array (1 mark)
+		
+		Check if the element matches target (1 mark)
+		
+		Set variable to true (1 mark)
+	```
 
-### Part Two
 
 === "Python"
 
-	``` python linenums="1"
-		from dataclasses import dataclass
-		
-		@dataclass
-		
-		class SchoolReg:
-		    Name : str = ""
-		    Age : int = 0
-		    Reg : str = ""
-		
-		pupilRecord = [SchoolReg() for x in range (0,3)]
-		
-		pupilRecord[0].Name = "Peter"
-		pupilRecord[0].Age = 17
-		pupilRecord[0].Reg = "r1"
-	```
-
-=== "Explanation"
-
-	__Line 12 - pupilRecord[0].Name = "Peter"__
-	Here, we set the Name of the first student (pupilRecord[0]) to "Peter". Before, it was empty, but now it holds the name "Peter."
- 
-	__Line 13 - pupilRecord[0].Age = 17__
-	Next, we set the Age of the first student (pupilRecord[0]) to 17. Before it was 0, and now it’s set to 17 years old.
- 
-	__Line 14 - pupilRecord[0].Reg = "r1"__
-	Here, we set the registration number (Reg) for the first student to "r1". Now Peter has the registration number "r1".
 
 ### Part Three
 
