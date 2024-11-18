@@ -167,3 +167,5 @@ The example below asks for a target (search term the user is looking for).
     The program asks for a target name. 
     
     It loops through the first array, and finds the position where that name is in the list. Later, we can find the corresponding mark, because if the name was found at pupils[position], their mark must be stored at marks[position].
+
+## Count Occurrences
