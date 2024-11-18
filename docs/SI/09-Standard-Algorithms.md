@@ -22,7 +22,7 @@ These algorithms are pretty simple to understand on their own.
 
 Plus, all three of them work by going through a list of items one by one (__traversing an array)__
 
-Traversing an array in Python
+## Traversing an array in Python
 
 === "Pseudocode"
 
@@ -49,7 +49,6 @@ For each algorithm, you must be able to:
 
 __The first step is to learn/memorise the algorithms; then, you can apply them to unfamiliar contexts.__
 
-
 ## Linear Search 
 
 A linear search is used with one or more arrays of items. We traverse (loop through) the array, looking for a particular value. 
@@ -64,8 +63,6 @@ The example below asks for a target (search term the user is looking for).
 * It loops through 10 names. 
 * If each name matches the target, it switches the ‘found’ variable to true. 
 * At the end of the program, we could know if the name was in the list by checking the value of the found variable.
-
-
 
 === "Algorithm Example"
 
