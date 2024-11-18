@@ -18,26 +18,7 @@ For Higher, we add three more standard algorithms:
 * Count occurrences
 * Find minimum/maximum
 
-All of the above require you to be able to traverse an array.
-
-## Traversing an array in Python - Refresh
-
-=== "Pseudocode"
-
-	```pseudocode linenums="1"
-			For loop [counter for the number of elements]
-				print element(counter)
-			End loop
-	```
-
-=== "Python"
-
-	```python linenums="1"
-		for counter in range(0, 6):
-			print(names[counter])]
-	```
- 
-The linear search and count occurrences algorithms use this existing algorithm, and add an if statement inside the loop. We will cover these first.
+__All of the above require you to be able to traverse an array.__
 
 For each algorithm, you must be able to:
 
@@ -125,5 +106,29 @@ The example below asks for a target (search term the user is looking for).
     
 ## Example 2 - Using Posistion
 
+=== "Python"
 
+	``` python linenums="1"
+		# An array of seven names
+		names = ["Dopey", "Grumpy", "Doc", "Bashful", "Sneezy", "Sleepy", "Happy"]
+		 
+		target = input("Enter a name to look for")
+		position = -1
+		
+		# Loop through each item
+		for counter in range(0,7):
+		  # Check each item against the target
+		  if names[counter] == target:
+		    position = counter
+		
+		# Is the target in the list?
+		print("Item was found at position:", position)
+	```
 
+=== "Explanation"
+
+    Sometimes, we want to know the position of an element in the array - for instance, the target was found at position 5. This example uses the same basic program as the one above, but instead of reporting whether the name is found, it reports its position.
+
+    We set the starting position to -1. This is because it isn’t possible to be at position -1 in the array. That way, we know that anything other than -1 must mean the item was found, so the position was changed.
+
+    __If, at the end of the program, the value of position was still -1, we would know that the target hadn’t been found.__
