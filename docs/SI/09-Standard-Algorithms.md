@@ -158,6 +158,10 @@ The example below asks for a target (search term the user is looking for).
 
 === "Explanation"
 
-    This program has two arrays: one of pupil names, and one of marks. Both arrays have the same number of elements. Looking at a name, we can find their mark by going to the corresponding element in the marks array (so the third name corresponds to the third mark). 
+    This program has two arrays: one of pupil names, and one of marks. 
+    
+    Both arrays have the same number of elements. 
+    
+    Looking at a name, we can find their mark by going to the corresponding element in the marks array (so the third name corresponds to the third mark). 
     
     The program asks for a target name. It loops through the first array, and finds the position where that name is in the list. Later, we can find the corresponding mark, because if the name was found at pupils[position], their mark must be stored at marks[position].
