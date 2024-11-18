@@ -15,7 +15,8 @@ nav:
       - Working with .csv Files: 'SI/06-Working-with-Files-(csv).md'
       - Parrallel 1D Arrays: 'SI/07-Parallel-1D-Arrays.md'
       - Working with Records: 'SI/08-Working-with-Records.md'
-      - Arrays of Records: 'SI/09-Arrays-of-Records.md'
+      - Standard Algorithms: 'SI/09-Standard-Algorithms.md'
+      - Arrays of Records: 'SI/10-Arrays-of-Records.md'
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
