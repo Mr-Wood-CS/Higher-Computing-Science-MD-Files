@@ -132,3 +132,34 @@ The example below asks for a target (search term the user is looking for).
     We set the starting position to -1. This is because it isn’t possible to be at position -1 in the array. That way, we know that anything other than -1 must mean the item was found, so the position was changed.
 
     __If, at the end of the program, the value of position was still -1, we would know that the target hadn’t been found.__
+
+## Example 3 - Using Posistion with Parallel Arrays
+
+=== "Python"
+
+	``` python linenums="1"
+	# An array of pupil names, and a *parallel* array of marks
+	pupils = ["Bob", "Bart", "Krusty", "Mel", "Lisa"]
+	marks = [10, 2, 1, 8, 9]
+	
+	# Ask for a person's name, and print their mark
+	target_name = input("Please enter a name:")
+	position = -1
+	
+	# Loop through names
+	for counter in range(0, 5):
+	  if pupils[counter] == target_name:
+	    position = counter
+	
+	# If we found their name at [position], their mark must also be there
+	their_mark = marks[position]
+
+	```
+
+=== "Explanation"
+
+    Sometimes, we want to know the position of an element in the array - for instance, the target was found at position 5. This example uses the same basic program as the one above, but instead of reporting whether the name is found, it reports its position.
+
+    We set the starting position to -1. This is because it isn’t possible to be at position -1 in the array. That way, we know that anything other than -1 must mean the item was found, so the position was changed.
+
+    __If, at the end of the program, the value of position was still -1, we would know that the target hadn’t been found.__
