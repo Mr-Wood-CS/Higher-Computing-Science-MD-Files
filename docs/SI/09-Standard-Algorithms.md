@@ -353,3 +353,36 @@ To find the maximum (highest) value, we would look through the list one-by-one:
 * The next value is 18. This is lower than 46 (the current highest found), so we ignore it…
 
 __On that basis, we would find that 49 (element 6) is the highest value in the array.__
+
+=== "__Find Maximum Algorithm__"
+
+	```pseudocode linenums="1"
+		Declare a maximum variable, and set it to the first item in the array (e.g. 33)
+  
+		Loop for each element in the array
+  
+			If number(counter) > maximum
+	  
+	  			Set maximum to number(counter)
+	     		
+	    		End if
+			
+		End for loop
+	```
+
+=== "__Find Maximum Algorithm__"
+
+    ```pseudocode linenums="1"
+    
+	Declare a minimum variable, and set it to the first item in the array (e.g. 33)
+
+	Loop for each element in the array
+
+		If number(counter) < minimum
+  
+			Set minimum to number(counter)
+		
+		End if
+		
+	End for loop
+```
