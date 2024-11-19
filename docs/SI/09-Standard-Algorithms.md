@@ -374,15 +374,15 @@ __On that basis, we would find that 49 (element 6) is the highest value in the a
 
     ```pseudocode linenums="1"
     
-	Declare a minimum variable, and set it to the first item in the array (e.g. 33)
-
-	Loop for each element in the array
-
-		If number(counter) < minimum
-  
-			Set minimum to number(counter)
+		Declare a minimum variable, and set it to the first item in the array (e.g. 33)
 		
-		End if
+		Loop for each element in the array
 		
-	End for loop
+			If number(counter) < minimum
+		
+				Set minimum to number(counter)
+			
+			End if
+	
+End for loop
 ```
