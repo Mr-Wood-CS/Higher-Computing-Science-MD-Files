@@ -216,12 +216,19 @@ The example below  asks the user to enter a target. It loops through a list of t
 
     ```pseudocode linenums="1"
        Set count to 0
+       
        Input target
+       
        For index from 0 to 9
+       
 		If names(index) == target then
+  
 			Set count to count + 1
+   
 		End if
+  
        End for loop
+       
        Display count
 
     ```
