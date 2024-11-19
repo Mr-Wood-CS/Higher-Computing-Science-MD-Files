@@ -339,7 +339,7 @@ These algorithms would only work on arrays of integers or real numbers (you canâ
 For example, below is an array of 10 integers:
 
 <figure markdown="span">
-  ![img 1](../Images/Min-and-Max-1){ width="800" }
+  ![img 1](../Images/Min-and-Max-1.png){ width="800" }
 </figure>
 
 To find the maximum (highest) value, we would look through the list one-by-one:
