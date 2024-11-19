@@ -170,10 +170,13 @@ The example below asks for a target (search term the user is looking for).
 
 ## Count Occurrences
 
-Count occurrences is very similar to linear search:
-The user enters a target/search-term. 
-The algorithm then searches the array. 
-If the target is found, instead of recording position, it adds +1 to a total/counter. 
+Count occurrences are very similar to linear search:
+
+* The user enters a target/search-term.
+  
+* The algorithm then searches the array. 
+
+* If the target is found, instead of recording position, it adds +1 to a total/counter. 
 
 By doing this, it counts how often a particular condition is met.
 
@@ -189,11 +192,13 @@ However, we could also use it with other conditions:
 
 !!! warning "Important"
 
-    Do not confuse counting occurrences with keeping a running total: one counts how many of something there are, the other adds them all together.  There might be times when you are asked to do both on the same question.
+    * Do not confuse counting occurrences with keeping a running total: one counts how many of something there are, the other adds them all together.  There might be times when you are asked to do both on the same question.
     
-    Don’t confuse ‘count’ or ‘counter’ with the loop counter. Your loop counter (e.g. for counter in range...) might use a similar name, e.g. you call one count and the other counter. 
+    * Do not confuse ‘__count__’ or ‘__counter__’ with the loop counter. 
     
-    You could call your loop counter something like “for index in range(0,9)”  to make sure you don’t get confused.
+    * Your loop counter (e.g. for counter in range...) might use a similar name, e.g. you call one count and the other counter. 
+    
+    * You could call your loop counter something like “for index in range(0,9)”  to make sure you don’t get confused.
 
 Like a linear search, count occurrences depends on traversing an array. 
 
