@@ -187,7 +187,7 @@ However, we could also use it with other conditions:
 
 * In a list of letters, how many are upper-case?
 
-!!! important
+!!! warning "Important"
 
     Do not confuse counting occurrences with keeping a running total: one counts how many of something there are, the other adds them all together.  There might be times when you are asked to do both on the same question.
     
