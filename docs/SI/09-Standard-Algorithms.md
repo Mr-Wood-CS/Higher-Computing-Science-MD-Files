@@ -357,17 +357,17 @@ __On that basis, we would find that 49 (element 6) is the highest value in the a
 === "__Find Maximum Algorithm__"
 
     ``` python linenums="1"
-		Declare a maximum variable, and set it to the first item in the array (e.g. 33)
-  		
-    		Loop for each element in the array this one
-
-      			If number(counter) > maximum
-
-     				Set maximum to number(counter)
-	 
-	 		End if
-    
-    		End for loop
+			Declare a maximum variable, and set it to the first item in the array (e.g. 33)
+	  		
+	    		Loop for each element in the array this one
+	
+	      			If number(counter) > maximum
+	
+	     				Set maximum to number(counter)
+		 
+		 		End if
+	    
+	    		End for loop
     ```
 
 	
