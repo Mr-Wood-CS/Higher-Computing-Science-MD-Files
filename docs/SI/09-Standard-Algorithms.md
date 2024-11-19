@@ -368,46 +368,9 @@ __On that basis, we would find that 49 (element 6) is the highest value in the a
 	 		End if
     
     		End for loop
-  
-			# Go through each item in the list, starting from the second one
-			for i in range(1, len(arr)):
-				# Store the current number in a temporary variable
-				current_number = arr[i]
-				# Set j to be one position before i
-				j = i - 1
-			
-				# Move numbers in the sorted part of the list to the right
-				# until we find the right place for the current number
-				while j >= 0 and arr[j] > current_number:
-				arr[j + 1] = arr[j]
-				j -= 1
-			
-				# Place the current number in its correct position
-				arr[j + 1] = current_number
-   
-			return arr
-		
-		# Example list
-		numbers = [7, 2, 5, 3, 4]
-		print("Before sorting:", numbers)
-		print("After sorting:", insertion_sort(numbers))
     ```
 
-	```pseudocode linenums="1"
-  
-				Declare a maximum variable, and set it to the first item in the array (e.g. 33)
-			
-				Loop for each element in the array this one
-			
-					If number(counter) > maximum
-			  
-						Set maximum to number(counter)
-					
-					End if
-					
-				End for loop
-		```	
-
+	
 === "__Find Minimum Algorithm__"
 
 	    ```pseudocode linenums="1"
