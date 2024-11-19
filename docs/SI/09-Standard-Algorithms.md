@@ -224,7 +224,7 @@ The example below  asks the user to enter a target. It loops through a list of t
        End for loop
        Display count
 
-```
+    ```
 
 === "__SQA-style Marking Scheme for a Linear Search (4 marks)__"
 
