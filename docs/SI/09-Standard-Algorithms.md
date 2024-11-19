@@ -356,33 +356,33 @@ __On that basis, we would find that 49 (element 6) is the highest value in the a
 
 === "__Find Maximum Algorithm__"
 
-	```pseudocode linenums="1"
-		Declare a maximum variable, and set it to the first item in the array (e.g. 33)
-  
-		Loop for each element in the array
-  
-			If number(counter) > maximum
-	  
-	  			Set maximum to number(counter)
-	     		
-	    		End if
-			
-		End for loop
-	```
+		```pseudocode linenums="1"
+			Declare a maximum variable, and set it to the first item in the array (e.g. 33)
+		
+			Loop for each element in the array
+		
+				If number(counter) > maximum
+		  
+					Set maximum to number(counter)
+				
+				End if
+				
+			End for loop
+		```
 
-=== "__Find Maximum Algorithm__"
+=== "__Find Minimum Algorithm__"
 
-    ```pseudocode linenums="1"
-    
-		Declare a minimum variable, and set it to the first item in the array (e.g. 33)
+		```pseudocode linenums="1"
 		
-		Loop for each element in the array
-		
-			If number(counter) < minimum
-		
-				Set minimum to number(counter)
+			Declare a minimum variable, and set it to the first item in the array (e.g. 33)
 			
-			End if
-	
-End for loop
-```
+			Loop for each element in the array
+			
+				If number(counter) < minimum
+			
+					Set minimum to number(counter)
+				
+				End if
+		
+			End for loop
+		```
