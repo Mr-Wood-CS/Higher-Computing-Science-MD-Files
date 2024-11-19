@@ -45,20 +45,21 @@ The example below asks for a target (search term the user is looking for).
 
 === "__Algorithm Example__"
 
-	```pseudocode linenums="1"
-		Set found to false
-  
-		Input target
-  
-		For counter from 0 to 9
-  
-			If names(counter) == target then
-				Set found to true
+    ``` pseudocode linenums="1"
+	Set found to false
+	
+	Input target
+ 
+  	For counter from 0 to 9
     
-			End if
-		End for loop
+    		If names(counter) == target then
 
-	```
+			Set found to true
+ 
+		End if
+
+	End for loop
+    ```
 
 === "__SQA-style Marking Scheme for a Linear Search (4 marks)__"
 
@@ -73,6 +74,9 @@ The example below asks for a target (search term the user is looking for).
     The final mark in the example (__setting the variable to true__) might be replaced with something else, depending on the question. 
     
     For example, you might be asked to find the position of the element.
+
+
+
 
 ## Example 1 - Using Found
 
