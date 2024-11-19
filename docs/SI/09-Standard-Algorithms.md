@@ -192,7 +192,9 @@ However, we could also use it with other conditions:
 
 !!! warning "Important"
 
-    * Do not confuse counting occurrences with keeping a running total: one counts how many of something there are, the other adds them all together.  There might be times when you are asked to do both on the same question.
+    * Do not confuse __counting occurrences__ with __keeping a running total__: one counts how many of something there are, the other adds them all together.  
+    
+    * __There might be times when you are asked to do both on the same question.__
     
     * Do not confuse ‘__count__’ or ‘__counter__’ with the loop counter. 
     
