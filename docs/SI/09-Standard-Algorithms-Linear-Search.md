@@ -1,7 +1,7 @@
 # Linear Searching
 
 <div class="grid cards" markdown>
-- :fontawesome-brands-python: [Linear-Number-Search.py](../Static/Linear-Number-Search.py){:download="Linear-Number-Search.py"}
+- :fontawesome-brands-python: [Linear-Number-Search.py](../Static/09-Standard-Algorithms-(Linear-Search)/Linear-Number-Search.py){:download="Linear-Number-Search.py"}
 </div>
 
 !!! info "What you need to know"
