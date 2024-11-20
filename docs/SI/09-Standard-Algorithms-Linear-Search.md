@@ -1,4 +1,4 @@
-# Standard Algorithms
+# Linear Search
 
 !!! info "What you need to know"
 
