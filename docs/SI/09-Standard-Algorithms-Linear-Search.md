@@ -1,4 +1,4 @@
-# Linear Search
+# Linear Searching
 
 !!! info "What you need to know"
 
