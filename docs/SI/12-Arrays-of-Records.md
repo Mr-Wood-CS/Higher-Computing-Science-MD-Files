@@ -1,4 +1,4 @@
-# Working with Records
+# Arrays of Records
 
 !!! info "What you need to know"
 
