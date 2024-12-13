@@ -6,9 +6,7 @@ nav:
       - Development Methodologies: 'SDD/01-Development-Methodologies.md'
       - Analysis: 'SDD/02-Analysis.md'
       - Design: 'SDD/03-Design.md'
-      - Software Implementation: 'SDD/04-Software-Implementation.md'
-      - Testing:
-          Software Implementation: 'SDD/04-Software-Implementation.md'          
+      - Software Implementation: 'SDD/04-Software-Implementation.md'         
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
