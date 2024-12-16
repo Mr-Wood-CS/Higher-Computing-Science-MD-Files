@@ -4,7 +4,13 @@ nav:
     - Unit 1 - Software Design and Development:
       - SDD/index.md
       - Development Methodologies: 'SDD/01-Development-Methodologies.md'
-      - Analysis: 'SDD/02-Analysis.md'
+      - Analysis:
+          - Explanation: 'SDD/2.0-Analysis.md'
+          - Functional Requirements: 'SDD/2.1-Functional-Requirements.md'
+          - Purpose: 'SDD/2.2-Purpose.md'
+          - Scope: 'SDD/2.3-Scope.md'
+          - Boundaries: 'SDD/2.4-Boundaries.md'
+          - Example Question: 'SDD/2.5-Example-Question.md'
       - Design: 'SDD/03-Design.md'
       - Software Implementation: 'SDD/04-Software-Implementation.md'         
     - Unit 2 - Software Implementation:
