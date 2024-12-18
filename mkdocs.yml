@@ -11,8 +11,9 @@ nav:
           - Scope: 'SDD/2.3-Scope.md'
           - Boundaries: 'SDD/2.4-Boundaries.md'
           - Example Question: 'SDD/2.5-Example-Question.md'
-      - Design: 'SDD/03-Design.md'
-      - Software Implementation: 'SDD/04-Software-Implementation.md'         
+      - Design:
+          - Design: 'SDD/3.2-Main-Algorithm-and-Refinements.md'      
+    - Software Implementation: 'SDD/04-Software-Implementation.md'         
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
