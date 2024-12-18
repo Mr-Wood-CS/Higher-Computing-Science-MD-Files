@@ -14,7 +14,7 @@ nav:
       - Design:
           - Modular Programming: 'SDD/3.1-Modular-Programming.md'  
           - Main Algorithm and Refinements: 'SDD/3.2-Main-Algorithm-and-Refinements.md'      
-    - Software Implementation:
+      - Software Implementation:
           - Software Implementation: 'SDD/04-Software-Implementation.md'
           - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
           - Scope of Variables and Parameter Passing: 'SI/02-Scope-of-Variables-and-Parameter-Passing.md'
