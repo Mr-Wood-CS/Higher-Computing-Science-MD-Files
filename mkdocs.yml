@@ -3,7 +3,10 @@ nav:
     - Home: 'index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
-      - Development Methodologies: 'SDD/1.0-Development-Methodologies.md'
+      - Development Methodologies:
+          - Development Methodologies: 'SDD/1.0-Development-Methodologies.md'  
+          - Iterative Development Process: 'SDD/1.0-Development-Methodologies.md' 
+          - Agile Methodologies: 'SDD/1.0-Development-Methodologies.md' 
       - Analysis:
           - Explanation: 'SDD/2.0-Analysis.md'
           - Functional Requirements: 'SDD/2.1-Functional-Requirements.md'
