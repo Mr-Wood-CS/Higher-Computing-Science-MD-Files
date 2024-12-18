@@ -12,6 +12,7 @@ nav:
           - Boundaries: 'SDD/2.4-Boundaries.md'
           - Example Question: 'SDD/2.5-Example-Question.md'
       - Design:
+          - Modular Programming: 'SDD/3.1-Modular-Programming.md'  
           - Main Algorithm and Refinements: 'SDD/3.2-Main-Algorithm-and-Refinements.md'      
     - Software Implementation:
           - Software Implementation: 'SDD/04-Software-Implementation.md'
