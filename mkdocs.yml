@@ -88,4 +88,3 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes 
-    - navigation.expand
