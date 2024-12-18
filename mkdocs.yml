@@ -13,7 +13,8 @@ nav:
           - Example Question: 'SDD/2.5-Example-Question.md'
       - Design:
           - Modular Programming: 'SDD/3.1-Modular-Programming.md'  
-          - Main Algorithm and Refinements: 'SDD/3.2-Main-Algorithm-and-Refinements.md'      
+          - Main Algorithm and Refinements: 'SDD/3.2-Main-Algorithm-and-Refinements.md'
+          - Data Flow In Out: 'SDD/3.3-Data-Flow-In-Out.md' 
       - Software Implementation:
           - Software Implementation: 'SDD/04-Software-Implementation.md'
           - Sub-program Procedures: 'SI/01-Sub-Program Procedures.md'
